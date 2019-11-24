@@ -1,0 +1,40 @@
+// https://api-v3.igdb.com/games
+// fields *; where id = 6150;
+[
+    {
+        "id": 6150,
+        "age_ratings": [3414],
+        "alternative_names": [668],
+        "category": 0,
+        "collection": 4698,
+        "cover": 6315,
+        "created_at": 1397779200,
+        "external_games": [132269],
+        "first_release_date": 1060041600,
+        "game_modes": [1, 4],
+        "genres": [10],
+        "involved_companies": [14640, 14641],
+        "keywords": [640, 4157, 4440],
+        "name": "Splashdown: Rides Gone Wild",
+        "platforms": [8, 55],
+        "popularity": 1,
+        "release_dates": [14989, 14990],
+        "similar_games": [
+            26853,
+            27378,
+            27553,
+            40470,
+            44178,
+            55192,
+            80382,
+            103018,
+            109292,
+            119207
+        ],
+        "slug": "splashdown-rides-gone-wild",
+        "summary": "Splashdown: Rides Gone Wild is a 2003 jetski racing video game developed by Rainbow Studios and published by THQ for PlayStation 2 and mobile. It is a sequel to the original Splashdown for the PlayStation 2 and Xbox",
+        "tags": [268435466, 536871552, 536875069, 536875352],
+        "updated_at": 1520899200,
+        "url": "https://www.igdb.com/games/splashdown-rides-gone-wild"
+    }
+]

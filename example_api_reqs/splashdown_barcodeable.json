@@ -1,0 +1,71 @@
+//https://api.barcodable.com/api/v1/upc/752919460320
+{
+	"item": {
+		"upc": "752919460320",
+		"ean": "0752919460320",
+		"matched_items": [
+			{
+				"asin": "B00008J2V0",
+				"title": "Splash Down: Rides Gone Wild",
+				"mpn": "K4F52UA",
+				"part_number": "K4F52UA",
+				"upcs": ["752919460320"],
+				"description": "Experience fast and wet action in this white-knuckle racing game.",
+				"brand": "THQ",
+				"manufacturer": "THQ",
+				"new_price": 13.99,
+				"used_price": 1.55,
+				"currency_code": "USD",
+				"url": "https://www.amazon.com/Splash-Down-Rides-Gone-Wild/dp/B00008J2V0",
+				"features": [
+					"Go water-racing in 8 huge outdoor courses, with 12 new races in 12 new stadium tracks",
+					"Blast through huge imaginative locales as you try for first in multiple game modes - Arcade Mode, Time Trial and more",
+					"Gain points by completing goals and setting records, then use your points to buy unlockable items for better racing",
+					"Try out the new stunt-chain system -- it lets you kick off more than 75 separate stunts",
+					"If you're all about the stunts, try the new Freestyle Mode and catch big air and big air"
+				],
+				"dimensions": {
+					"item": {
+						"height": 0.39,
+						"height_units": "inches",
+						"weight": 0.77,
+						"weight_units": "pounds",
+						"width": 4.25,
+						"width_units": "inches",
+						"length": 7.54,
+						"length_units": "inches"
+					},
+					"package": {
+						"height": 0.5,
+						"height_units": "inches",
+						"weight": 0.15,
+						"weight_units": "pounds",
+						"width": 5.4,
+						"width_units": "inches",
+						"length": 7.5,
+						"length_units": "inches"
+					}
+				},
+				"images": [
+					"https://images-na.ssl-images-amazon.com/images/I/51WzbguWjjL.jpg"
+				],
+				"categories": ["Kids \u0026 Family", "Games"],
+				"category_hierarchies": [
+					["Books", "Subjects"],
+					["Video Games", "Kids \u0026 Family"],
+					[
+						"Video Games",
+						"Retro Gaming \u0026 Microconsoles",
+						"PlayStation 2",
+						"Games"
+					]
+				]
+			}
+		],
+		"company_name": "Kokopeli",
+		"company_address": "27001 AGOURA RD STE 325, AGOURA HILLS, CA 91301-5339, US",
+		"iso_country_codes": ["US", "CA"]
+	},
+	"message": "OK",
+	"status": 200
+}
