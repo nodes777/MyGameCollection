@@ -1,5 +1,13 @@
 import React from "react";
-import { Text, View, TouchableOpacity, StyleSheet, Alert } from "react-native";
+import {
+  Text,
+  ScrollView,
+  TouchableOpacity,
+  StyleSheet,
+  Alert,
+  TextInput,
+  Image
+} from "react-native";
 import * as Permissions from "expo-permissions";
 import { Camera } from "expo-camera";
 
@@ -21,7 +29,7 @@ export default class AddDetailsScreen extends React.Component {
   render() {
     const gameDataFromBarcode = this.props.navigation.state.params;
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <Text style={{ fontSize: 18, marginBottom: 10, color: "black" }}>
           Details Screen
         </Text>
@@ -32,12 +40,28 @@ export default class AddDetailsScreen extends React.Component {
           label="Title"
           style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
           onChangeText={text => this.onChangeText(text)}
-          value={value}
+          value={gameDataFromBarcode.title}
+        />
+        <TextInput
+          label="Platform"
+          style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
+          onChangeText={text => this.onChangeText(text)}
+          value={gameDataFromBarcode.platform[0]}
+        />
+        <TextInput
+          label="Developer"
+          style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
+          onChangeText={text => this.onChangeText(text)}
+          value={gameDataFromBarcode.title}
+        />
+        <Image
+          source={{ uri: `${gameDataFromBarcode.images[0]}` }}
+          style={{ width: 400, height: 400 }}
         />
         <Text style={{ fontSize: 18, marginBottom: 10, color: "black" }}>
           {JSON.stringify(gameDataFromBarcode)}
         </Text>
-      </View>
+      </ScrollView>
     );
   }
 }

@@ -1,15 +1,12 @@
 import axios from "axios";
-import IGDA_API_KEY from "./constants/API_KEY";
+import GIANT_BOMB_API_KEY from "./constants/API_KEY";
 
 import { CONSOLE_NAMES } from "./constants/CONSOLE_NAMES";
-const baseURL = "https://api-v3.igdb.com/games/";
-// const data =
-// 	"fields alternative_name,character,collection,company,description,game,name,person,platform,popularity,published_at,test_dummy,theme";
 
 export const getGameDataFromBarcode = async barcodeValue => {
-	console.log("Requesting game data...");
+	console.log("Requesting game data from barcode...");
 	const gameData = await axios({
-		url: `https://api.barcodable.com/api/v1/upc/${barcodeValue}`,
+		url: `https://api.barcodable.com/api/v1/upc/752919460320`,
 		method: "GET",
 		headers: {
 			Accept: "application/json"
@@ -22,10 +19,10 @@ export const getGameDataFromBarcode = async barcodeValue => {
 				return;
 			}
 
-			// console.log(response.data);
+			console.log(response.data);
 			const data = {
 				title: response.data.item.matched_items[0].title,
-				company_name: response.data.company_name,
+				company_name: response.data.item.company_name,
 				brand: response.data.item.matched_items[0].brand,
 				manufacturer: response.data.item.matched_items[0].manufacturer,
 				new_price: response.data.item.matched_items[0].new_price,
@@ -36,19 +33,32 @@ export const getGameDataFromBarcode = async barcodeValue => {
 			};
 
 			// need to determine publisher and developer
+			// dev is not found on barcodeable - it's rainbow studios
+			let publisher;
+			if (data.brand === data.manufacturer) {
+				publisher = data.brand;
+			} else {
+				console.error(
+					"The publisher is undefined because the brand and the manufacturer do not match"
+				);
+			}
 
 			// need platform - search category_hierarchies for one of a set number of consoles?
 			const categories =
 				response.data.item.matched_items[0].category_hierarchies;
 			console.log(categories);
 
-			const platforms = categories.flat();
-			// .filter(function(category) {
-			// 	return CONSOLE_NAMES.indexOf(category) > -1;
-			// });
+			const platform = categories.flat().filter(function(category) {
+				return CONSOLE_NAMES.indexOf(category) > -1;
+			});
 
-			console.log(platforms);
-			// console.log(data.title);
+			console.log(platform);
+			if (platform.length > 1) {
+				console.error(
+					"More than one platform returned from the barcorde"
+				);
+			}
+			data.platform = platform;
 			return data;
 		})
 		.catch(err => {
@@ -57,23 +67,19 @@ export const getGameDataFromBarcode = async barcodeValue => {
 			return "Error in barcodable API";
 		});
 
-	// const body = ``;
-	// axios({
-	// 	url: "https://api-v3.igdb.com/games/",
-	// 	method: "POST",
-	// 	headers: {
-	// 		Accept: "application/json",
-	// 		"user-key": "f91452adf912178d7155a9e28fed848d"
-	// 	},
-	// 	data: "fields name; limit 10;"
-	// })
-	// 	.then(response => {
-	// 		console.log(response.data);
-	// 	})
-	// 	.catch(err => {
-	// 		console.log("ERROR in IGDB API");
-	// 		console.error(err);
-	// 	});
+	// after we have barcodeable's game name we search Giant Bomb with it
+	//const searchGiantBombURL = `http://www.giantbomb.com/api/search/?api_key=${GIANT_BOMB_API_KEY}&format=json&query=${gameData.title}&resources=game`;
+	const gameData = await axios({
+		url: `http://www.giantbomb.com/api/search/?api_key=${GIANT_BOMB_API_KEY}&format=json&query=${
+			gameData.title
+		}&resources=game`,
+		method: "GET",
+		headers: {
+			Accept: "application/json"
+		}
+	});
+
+	// that will return a game id, from which we can get the game details
 
 	return gameData;
 };

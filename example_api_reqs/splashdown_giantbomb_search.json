@@ -1,0 +1,604 @@
+{
+    "error": "OK",
+    "limit": 10,
+    "offset": 0,
+    "number_of_page_results": 10,
+    "number_of_total_results": 155,
+    "status_code": 1,
+    "results": [
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-27363/",
+            "date_added": "2009-07-15 16:11:52",
+            "date_last_updated": "2013-05-28 05:21:24",
+            "deck": "Splashdown: Rides Gone Wild is a jet-ski racing game and sequel to the 2001 PS2 and Xbox game, developed by Rainbow Studios and published by THQ.",
+            "description": "<h2>Overview</h2><p>Splashdown: Rides Gone Wild is an arcade racing game developed by <a href=\"/rainbow-studios/3010-2700/\" data-ref-id=\"3010-2700\">Rainbow Studios</a> and published by <a href=\"/thq/3010-15/\" data-ref-id=\"3010-15\">THQ</a> on the <a href=\"/playstation-2/3045-19/\" data-ref-id=\"3045-19\">PlayStation 2</a> and <a href=\"/xbox/3045-32/\" data-ref-id=\"3045-32\">Xbox</a>. It is a jet ski-based racer and is a sequel to <a href=\"/splashdown/3030-10951/\" data-ref-id=\"3030-10951\">Splashdown</a>, a much more realistic jet-ski game developed by the same studio and published by <a href=\"/atari-sa/3010-548/\" data-ref-id=\"3010-548\">Atari</a>. Rides Gone Wild takes a much more arcade-style approach to the genre, similar to games like <a href=\"/hydro-thunder/3030-13241/\" data-ref-id=\"3030-13241\">Hydro Thunder</a>, featuring incredibly exaggerated tricksets, over-characterized racers and theme-park like levels.</p><h2>Characters</h2><p>Below is a table of all the characters and their attributes. The attributes in the game are speed, acceleration, handling, and stability. Each attribute is given a rating out of 5, with 5 being the highest.</p><table data-max-width=\"false\"><thead><tr><th scope=\"col\">Character</th><th scope=\"col\">Acceleration</th><th scope=\"col\">Speed</th><th scope=\"col\">Handling</th><th scope=\"col\">Stability</th></tr></thead><tbody><tr><td>Andy Pierce</td><td>3</td><td>4</td><td>3</td><td>3</td></tr><tr><td>Haily Hollister</td><td>3</td><td>3</td><td>4</td><td>3</td></tr><tr><td>Jonah Barrett</td><td>2</td><td>5</td><td>3</td><td>3</td></tr><tr><td>Kyoko Takahashi</td><td>5</td><td>3</td><td>3</td><td>2</td></tr><tr><td>Sha-Blamm!!</td><td>5</td><td>3</td><td>4</td><td>1</td></tr><tr><td>Coral Suarez</td><td>4</td><td>3</td><td>4</td><td>2</td></tr><tr><td>Amman Ra</td><td>4</td><td>3</td><td>5</td><td>1</td></tr><tr><td>\"Wrong Way\" McNabb</td><td>4</td><td>5</td><td>3</td><td>1</td></tr><tr><td>Sneaky Pete</td><td>4</td><td>4</td><td>5</td><td>3</td></tr><tr><td>Zug Zug</td><td>4</td><td>5</td><td>4</td><td>3</td></tr><tr><td>Rotney</td><td>5</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Michael Hawke</td><td>5</td><td>5</td><td>5</td><td>1</td></tr></tbody></table><p> </p><h2>Soundtrack</h2><table data-max-width=\"false\"><thead><tr><th scope=\"col\">Artist</th><th scope=\"col\">Song Title</th></tr></thead><tbody><tr><td>The Boss Martians</td><td>\"AMX\"</td></tr><tr><td>The Exies</td><td>\"My Goddess\"</td></tr><tr><td>Soilwork</td><td>\"Natural Born Chaos\"</td></tr><tr><td>Audiovent</td><td>\"Gravity\"</td></tr><tr><td>The Donnas</td><td>\"Who Invited You\"</td></tr><tr><td>Audiovent</td><td>\"Energy\"</td></tr><tr><td>Juno Reactor</td><td>\"Hotaka\"</td></tr><tr><td>Treble Charger</td><td>\"Hundred Million\"</td></tr><tr><td>Kazzer</td><td>\"Pedal to the Metal\"</td></tr><tr><td>In Flames</td><td>\"Drifter\"</td></tr><tr><td>Reef</td><td>\"Set The Records Straight\"</td></tr></tbody></table><p><strong>Note: </strong>\"Pedal to the Metal\" plays during the intro movie when the game begins.</p>",
+            "expected_release_day": 5,
+            "expected_release_month": 8,
+            "expected_release_quarter": null,
+            "expected_release_year": 2003,
+            "guid": "3030-27363",
+            "id": 27363,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2213177-box_sdownrgw.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2213177-box_sdownrgw.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2213177-box_sdownrgw.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2213177-box_sdownrgw.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/2213177-box_sdownrgw.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/2213177-box_sdownrgw.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2213177-box_sdownrgw.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2213177-box_sdownrgw.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/2213177-box_sdownrgw.png",
+                "image_tags": "All Images,Box Art"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-27363/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 2
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-27363/?filter=image_tag%3ABox+Art",
+                    "name": "Box Art",
+                    "total": 1
+                }
+            ],
+            "name": "Splashdown: Rides Gone Wild",
+            "number_of_user_reviews": 0,
+            "original_game_rating": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-6/",
+                    "id": 6,
+                    "name": "ESRB: E"
+                }
+            ],
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-19/",
+                    "id": 19,
+                    "name": "PlayStation 2",
+                    "site_detail_url": "https://www.giantbomb.com/playstation-2/3045-19/",
+                    "abbreviation": "PS2"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/splashdown-rides-gone-wild/3030-27363/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-10951/",
+            "date_added": "2008-04-01 15:57:15",
+            "date_last_updated": "2017-12-04 16:32:18",
+            "deck": "Splashdown is a racing game for the Xbox and Playstation 2",
+            "description": "<p>Players race through several exotic courses in many different locations on jet skis while passing buoys along the way. If they pass on the wrong side of a buoy, the jet ski may stall, slowing them down temporarily. <br /> <br /></p><h3>Soundtrack</h3><ul class=\"plain-list\"><li>\"The Rock Show\" - Blink 182</li><li>\"Hit or Miss\" - New Found Glory</li><li>\"Hold Your Breath\" - Otis</li><li>\"All Star\" - Smash Mouth</li><li>\"Right Now\" - SR-71</li><li>\"All She's Got\" - Sum 41</li><li>\"Rhythms\" - Sum 41</li><li>\"You've Got A Crush On Me\" - The Donnas</li><li>\"Rock Da Juice\" - The Dude</li><li>\"Chupa Cabra\" - The Groovie Ghoulies</li><li>\"Gaceland\" - The Groovie Ghoulies</li></ul>",
+            "expected_release_day": 5,
+            "expected_release_month": 11,
+            "expected_release_quarter": null,
+            "expected_release_year": 2001,
+            "guid": "3030-10951",
+            "id": 10951,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2213176-box_sdown.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2213176-box_sdown.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2213176-box_sdown.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2213176-box_sdown.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/2213176-box_sdown.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/2213176-box_sdown.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2213176-box_sdown.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2213176-box_sdown.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/2213176-box_sdown.png",
+                "image_tags": "All Images,Box Art"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-10951/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 29
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-10951/?filter=image_tag%3AArtworks",
+                    "name": "Artworks",
+                    "total": 5
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-10951/?filter=image_tag%3ABox+Art",
+                    "name": "Box Art",
+                    "total": 3
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-10951/?filter=image_tag%3APS2+Screenshots",
+                    "name": "PS2 Screenshots",
+                    "total": 20
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-10951/?filter=image_tag%3AScreenshots",
+                    "name": "Screenshots",
+                    "total": 20
+                }
+            ],
+            "name": "Splashdown",
+            "number_of_user_reviews": 0,
+            "original_game_rating": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-6/",
+                    "id": 6,
+                    "name": "ESRB: E"
+                }
+            ],
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-19/",
+                    "id": 19,
+                    "name": "PlayStation 2",
+                    "site_detail_url": "https://www.giantbomb.com/playstation-2/3045-19/",
+                    "abbreviation": "PS2"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-32/",
+                    "id": 32,
+                    "name": "Xbox",
+                    "site_detail_url": "https://www.giantbomb.com/xbox/3045-32/",
+                    "abbreviation": "XBOX"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/splashdown/3030-10951/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": "Dead Don't Ride",
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-54230/",
+            "date_added": "2016-06-13 18:20:59",
+            "date_last_updated": "2019-07-07 16:55:23",
+            "deck": "An open-world survival action game from Sony's Bend studio.",
+            "description": "<h2>Overview</h2><p>Days Gone is open-world survival action game set 2 years after a worldwide epidemic. Following the story of  Deacon St. John, a bounty hunter, and his fight to survive and find reasons to live.</p>",
+            "expected_release_day": 26,
+            "expected_release_month": 4,
+            "expected_release_quarter": null,
+            "expected_release_year": 2019,
+            "guid": "3030-54230",
+            "id": 54230,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/3080121-screen%20shot%202019-02-09%20at%205.08.15%20pm.png",
+                "image_tags": "All Images"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-54230/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 45
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-54230/?filter=image_tag%3APAX+East+2019",
+                    "name": "PAX East 2019",
+                    "total": 9
+                }
+            ],
+            "name": "Days Gone",
+            "number_of_user_reviews": 0,
+            "original_game_rating": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-16/",
+                    "id": 16,
+                    "name": "ESRB: M"
+                }
+            ],
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-146/",
+                    "id": 146,
+                    "name": "PlayStation 4",
+                    "site_detail_url": "https://www.giantbomb.com/playstation-4/3045-146/",
+                    "abbreviation": "PS4"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/days-gone/3030-54230/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-61963/",
+            "date_added": "2017-10-04 09:51:51",
+            "date_last_updated": "2017-10-04 16:48:29",
+            "deck": "The Almost Gone is a mystery narrative exploration game where a young girl’s spirit looks for a way out in a magical afterlife.",
+            "description": null,
+            "expected_release_day": null,
+            "expected_release_month": null,
+            "expected_release_quarter": null,
+            "expected_release_year": 2018,
+            "guid": "3030-61963",
+            "id": 61963,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2967853-tag_boxshot_480x660.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2967853-tag_boxshot_480x660.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2967853-tag_boxshot_480x660.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2967853-tag_boxshot_480x660.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/2967853-tag_boxshot_480x660.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/2967853-tag_boxshot_480x660.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2967853-tag_boxshot_480x660.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2967853-tag_boxshot_480x660.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/2967853-tag_boxshot_480x660.png",
+                "image_tags": "All Images"
+            },
+            "image_tags": [],
+            "name": "The Almost Gone",
+            "number_of_user_reviews": 0,
+            "original_game_rating": null,
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-17/",
+                    "id": 17,
+                    "name": "Mac",
+                    "site_detail_url": "https://www.giantbomb.com/mac/3045-17/",
+                    "abbreviation": "MAC"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+                    "abbreviation": "PC"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/the-almost-gone/3030-61963/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-38327/",
+            "date_added": "2012-05-14 16:35:36",
+            "date_last_updated": "2019-07-10 14:31:17",
+            "deck": "Set in a large multi-story house during a 1995 thunderstorm, Gone Home is a first-person exploration game where a young woman finds out what happened to her family since she was away on a long overseas trip.",
+            "description": "<h2>Overview</h2><figure data-align=\"right\" data-size=\"small\" data-img-src=\"https://static.giantbomb.com/uploads/original/0/5370/2577529-5400216985-\" data-ref-id=\"1300-2577529\" data-ratio=\"0.5625\" data-width=\"1920\" data-embed-type=\"image\" style=\"width: 1920px\"><a class=\"fluid-height\" style=\"padding-bottom:56.3%\" href=\"https://static.giantbomb.com/uploads/original/0/5370/2577529-5400216985-\" data-ref-id=\"1300-2577529\"><img alt=\"No Caption Provided\" src=\"https://giantbomb1.cbsistatic.com/uploads/scale_small/0/5370/2577529-5400216985-\" srcset=\"https://giantbomb1.cbsistatic.com/uploads/original/0/5370/2577529-5400216985- 1920w, https://giantbomb1.cbsistatic.com/uploads/scale_super/0/5370/2577529-5400216985- 960w, https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5370/2577529-5400216985- 480w, https://giantbomb1.cbsistatic.com/uploads/scale_small/0/5370/2577529-5400216985- 320w\" sizes=\"(max-width: 320px) 100vw, 320px\" data-width=\"320\"></a></figure><p>Gone Home is an indie <a href=\"//www.giantbomb.com/first-person-perspective/3015-330/\" data-ref-id=\"3015-330\">first-person</a> exploration game developed and released digitally by <a href=\"/fullbright/3010-8025/\" data-ref-id=\"3010-8025\">Fullbright</a> for the <a href=\"/pc/3045-94/\" data-ref-id=\"3045-94\">PC</a>, <a href=\"/mac/3045-17/\" data-ref-id=\"3045-17\">Mac</a>, and <a href=\"/linux/3045-152/\" data-ref-id=\"3045-152\">Linux</a> on August 5, 2013.</p><p>The first game from Fullbright, Gone Home is set in a large house during a 1995 thunderstorm in the northwestern <a href=\"/the-united-states-of-america/3035-396/\" data-ref-id=\"3035-396\">United States</a> (more specifically <a href=\"/oregon/3035-4003/\" data-ref-id=\"3035-4003\">Oregon</a>). Players control <a href=\"/kaitlin-greenbriar/3005-27828/\" data-ref-id=\"3005-27828\">Kaitlin Greenbriar</a>, a 21-year-old woman who arrives at her family's new home after a long trip overseas to find the place deserted. While exploring her new home, she must piece together what happened to her parents (<a href=\"/terrence-greenbriar/3005-27838/\" data-ref-id=\"3005-27838\">Terrence</a> and <a href=\"/janice-greenbriar/3005-27837/\" data-ref-id=\"3005-27837\">Janice</a>) and younger sister <a href=\"/samantha-greenbriar/3005-27827/\" data-ref-id=\"3005-27827\">Sam</a>.</p><p>Unlike most adventure games, Gone Home includes no combat, no difficult puzzles, and no \"fail conditions\". Players progress through the story at their own pace by searching the place for clues, finding secret panels, and unlocking new areas. Along the way, they can interact with numerous things in the environment for their own pleasure (such as observing multiple angles of a common object, turning things on and off, and playing a <a href=\"/audio-cassette/3055-4054/\" data-ref-id=\"3055-4054\">cassette</a> in a tape deck).</p><p>The game was later released in retail form in some European and Australian regions by <a href=\"/merge-games/3010-9636/\" data-ref-id=\"3010-9636\">Merge</a> and <a href=\"/headup-games/3010-6810/\" data-ref-id=\"3010-6810\">Headup</a> throughout 2014. Various console versions of the game were planned to be published by <a href=\"/majesco-entertainment/3010-370/\" data-ref-id=\"3010-370\">Majesco's</a> indie label (<a href=\"/midnight-city/3010-9340/\" data-ref-id=\"3010-9340\">Midnight City</a>) before they were put on indefinite hold due to financial issues. It was, however, released digitally (as <em>Gone Home: Console Edition</em>) for the <a href=\"/xbox-one/3045-145/\" data-ref-id=\"3045-145\">Xbox One</a> and <a href=\"/playstation-4/3045-146/\" data-ref-id=\"3045-146\">PlayStation 4</a> on January 12, 2016. A <a href=\"/nintendo-switch/3045-157/\" data-ref-id=\"3045-157\">Nintendo Switch</a> version was released through <a href=\"/annapurna-interactive/3010-13747/\" data-ref-id=\"3010-13747\">Annapurna Interactive</a> on September 6, 2018.</p><p>The Xbox One version was made available to own for free in the month of October for Xbox Live Gold members as part of the service's <a href=\"https://www.giantbomb.com/games-with-gold/3015-8135/\" data-ref-id=\"3015-8135\">\"Games with Gold\"</a> promotion.</p><h2>Gameplay</h2><figure data-align=\"right\" data-size=\"small\" data-img-src=\"https://static.giantbomb.com/uploads/original/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png\" data-ref-id=\"1300-2531434\" data-ratio=\"0.5625\" data-width=\"1920\" data-embed-type=\"image\" style=\"width: 1920px\"><a class=\"fluid-height\" style=\"padding-bottom:56.3%\" href=\"https://static.giantbomb.com/uploads/original/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png\" data-ref-id=\"1300-2531434\"><img alt=\"No Caption Provided\" src=\"https://giantbomb1.cbsistatic.com/uploads/scale_small/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png\" srcset=\"https://giantbomb1.cbsistatic.com/uploads/original/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png 1920w, https://giantbomb1.cbsistatic.com/uploads/scale_super/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png 960w, https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png 480w, https://giantbomb1.cbsistatic.com/uploads/scale_small/8/81005/2531434-gonehome%202013-08-18%2011-35-43-33.png 320w\" sizes=\"(max-width: 320px) 100vw, 320px\" data-width=\"320\"></a></figure><p>The player finds various clues left from family members, such as letters, diary tape recordings, and maps leading to secret areas, in order to learn more about Sam's story. The game rarely tells the player where to look for the next relevant clue. This requires the player to scavenge the house for clues that will connect the dots to discovering more of the narrative. Access to certain parts of the house are gated using locked doors and require matching keys to be found before progressing.</p><p>There is no combat or difficult puzzles. The player progresses through the story by finding clues that lead them to discovering the next piece of the narrative, eventually leading to the game's ending. Most small objects can be picked up and examined from any angle. Additionally, finding certain notes will activate voice over narration from Sam that plays automatically and can be listened to again from the inventory screen. This is similar to how audio logs function in games such as <a href=\"/bioshock/3030-17280/\" data-ref-id=\"3030-17280\">BioShock</a><em>. </em></p><h2>Development</h2><p>The development of Gone Home was led by <a href=\"/steven-gaynor/3040-98001/\" data-ref-id=\"3040-98001\">Steve Gaynor</a>. In May 2012, he appeared in a Giant Bomb <a href=\"https://www.giantbomb.com/videos/fullbright-clear-eyes-cant-lose/2300-5974/\" data-ref-id=\"2300-5974\">video interview</a> to discuss the founding of The Fullbright Company and the early development of Gone Home. Gaynor listed \"immersive simulations\" such as <a href=\"/system-shock/3030-13948/\" data-ref-id=\"3030-13948\">System Shock</a>, <a href=\"/deus-ex/3030-17533/\" data-ref-id=\"3030-17533\">Deus Ex</a>, and <a href=\"/bioshock/3030-17280/\" data-ref-id=\"3030-17280\">Bioshock</a> as sources of inspiration for Gone Home's first-person adventure gameplay although the game has no enemies or combat. Another source of inspiration was the practice of urban exploration.</p><p>The music is composed by <a href=\"//www.giantbomb.com/chris-remo/3040-98002/\" data-ref-id=\"3040-98002\">Chris Remo</a> who is a close friend of the company.</p><p>On February 16th, 2013, <a href=\"https://www.giantbomb.com/johnnemann-nordhagen/3040-101941/\" data-ref-id=\"3040-101941\">Johnnemann Nordhagen</a>, co-founder of The Fullbright Company, revealed on Twitter that \"Sassy Magazine\" was used as a major research feature. This statement was later <a href=\"https://pbs.twimg.com/media/BDQeN73CMAA1LFC.jpg:large\" rel=\"nofollow\" data-ref-id=\"false\">confirmed by Steve Gaynor</a>.</p><p> </p><h2>Easter Eggs</h2><p>The Nintendo Switch version of Gone Home contains a set of new SNES cartridges, depicting actual Nintendo games such as <a href=\"/super-mario-kart/3030-19071/\" data-ref-id=\"3030-19071\">Super Mario Kart</a>, <a href=\"/donkey-kong-country/3025-155/\" data-ref-id=\"3025-155\">Donkey Kong Country</a>, and<a href=\"/the-legend-of-zelda-a-link-to-the-past/3030-10276/\" data-ref-id=\"3030-10276\"> The Legend of Zelda: A Link to the Past</a>.</p><h2>System Requirements</h2><table data-max-width=\"true\"><thead><tr><th scope=\"col\">PC</th><th scope=\"col\">Mac</th><th scope=\"col\">Linux</th></tr></thead><tbody><tr><td>Windows XP SP2</td><td>OS X 10.7 Lion</td><td>glibc 2.11 or newer</td></tr><tr><td>1.8GHz Processor</td><td>1.8GHz Processor</td><td>1.8GHz Processor</td></tr><tr><td>2GB Memory</td><td>2GB Memory</td><td>2GB Memory</td></tr><tr><td>Video Card with 512MB VRAM</td><td>Video Card with 512MB VRAM</td><td>Video Card with 512MB VRAM</td></tr><tr><td>2GB HDD Space</td><td>2GB HDD Space</td><td>2GB HDD Space</td></tr></tbody></table>",
+            "expected_release_day": 15,
+            "expected_release_month": 8,
+            "expected_release_quarter": null,
+            "expected_release_year": 2013,
+            "guid": "3030-38327",
+            "id": 38327,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2973353-box_gh.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2973353-box_gh.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2973353-box_gh.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2973353-box_gh.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/2973353-box_gh.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/2973353-box_gh.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2973353-box_gh.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2973353-box_gh.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/2973353-box_gh.png",
+                "image_tags": "All Images"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-38327/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 37
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-38327/?filter=image_tag%3APC+Screenshots",
+                    "name": "PC Screenshots",
+                    "total": 26
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-38327/?filter=image_tag%3AScreenshots",
+                    "name": "Screenshots",
+                    "total": 27
+                }
+            ],
+            "name": "Gone Home",
+            "number_of_user_reviews": 0,
+            "original_game_rating": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-16/",
+                    "id": 16,
+                    "name": "ESRB: M"
+                }
+            ],
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-17/",
+                    "id": 17,
+                    "name": "Mac",
+                    "site_detail_url": "https://www.giantbomb.com/mac/3045-17/",
+                    "abbreviation": "MAC"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+                    "abbreviation": "PC"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-145/",
+                    "id": 145,
+                    "name": "Xbox One",
+                    "site_detail_url": "https://www.giantbomb.com/xbox-one/3045-145/",
+                    "abbreviation": "XONE"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-146/",
+                    "id": 146,
+                    "name": "PlayStation 4",
+                    "site_detail_url": "https://www.giantbomb.com/playstation-4/3045-146/",
+                    "abbreviation": "PS4"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-152/",
+                    "id": 152,
+                    "name": "Linux",
+                    "site_detail_url": "https://www.giantbomb.com/linux/3045-152/",
+                    "abbreviation": "LIN"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-157/",
+                    "id": 157,
+                    "name": "Nintendo Switch",
+                    "site_detail_url": "https://www.giantbomb.com/nintendo-switch/3045-157/",
+                    "abbreviation": "NSW"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/gone-home/3030-38327/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-69657/",
+            "date_added": "2018-08-01 15:40:35",
+            "date_last_updated": "2018-08-06 14:41:58",
+            "deck": "1st and 3rd person multiplayer shooter. 2 game modes, Elimination and Sabotage.",
+            "description": null,
+            "expected_release_day": null,
+            "expected_release_month": null,
+            "expected_release_quarter": null,
+            "expected_release_year": null,
+            "guid": "3030-69657",
+            "id": 69657,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/3038692-begone.jpeg",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/3038692-begone.jpeg",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/3038692-begone.jpeg",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/3038692-begone.jpeg",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/3038692-begone.jpeg",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/3038692-begone.jpeg",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/3038692-begone.jpeg",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/3038692-begone.jpeg",
+                "original_url": "https://www.giantbomb.com/api/image/original/3038692-begone.jpeg",
+                "image_tags": "All Images"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-69657/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 2
+                }
+            ],
+            "name": "BeGone",
+            "number_of_user_reviews": 0,
+            "original_game_rating": null,
+            "original_release_date": "2011-08-01 00:00:00",
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+                    "abbreviation": "PC"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/begone/3030-69657/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-38833/",
+            "date_added": "2012-06-30 00:44:00",
+            "date_last_updated": "2012-08-05 20:01:14",
+            "deck": "Platformer based on the animated Disney movie.",
+            "description": "<h2>Overview</h2><p>The Wild is a platformer developed by <a data-ref-id=\"3010-2267\" href=\"/climax-studios/3010-2267/\" slug=\"climax-studios\">Climax Studios</a> and published by <a data-ref-id=\"3010-478\" href=\"/buena-vista-games-inc/3010-478/\" slug=\"buena-vista-games-inc\">Buena Vista Games</a> for the <a data-ref-id=\"3045-4\" href=\"/game-boy-advance/3045-4/\" slug=\"game-boy-advance\">Game Boy Advance</a> platform.</p>",
+            "expected_release_day": 18,
+            "expected_release_month": 9,
+            "expected_release_quarter": null,
+            "expected_release_year": 2006,
+            "guid": "3030-38833",
+            "id": 38833,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2285755-box_tw.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2285755-box_tw.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2285755-box_tw.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2285755-box_tw.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/2285755-box_tw.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/2285755-box_tw.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2285755-box_tw.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2285755-box_tw.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/2285755-box_tw.png",
+                "image_tags": "All Images,Box Art"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-38833/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 9
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-38833/?filter=image_tag%3ABox+Art",
+                    "name": "Box Art",
+                    "total": 2
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-38833/?filter=image_tag%3AScreenshots",
+                    "name": "Screenshots",
+                    "total": 7
+                }
+            ],
+            "name": "The Wild",
+            "number_of_user_reviews": 0,
+            "original_game_rating": null,
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-4/",
+                    "id": 4,
+                    "name": "Game Boy Advance",
+                    "site_detail_url": "https://www.giantbomb.com/game-boy-advance/3045-4/",
+                    "abbreviation": "GBA"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/the-wild/3030-38833/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-50641/",
+            "date_added": "2015-08-23 09:20:08",
+            "date_last_updated": "2019-03-23 13:05:18",
+            "deck": "A 3D isometric RPG with an emphasis on stealth, parkour, free-climbing, and exploration.",
+            "description": "<h2>Overview</h2><figure data-align=\"right\" data-size=\"medium\" data-img-src=\"https://static.giantbomb.com/uploads/original/5/55514/3038955-seven01.jpg\" data-ref-id=\"1300-3038955\" data-ratio=\"0.5625\" data-width=\"1920\" data-embed-type=\"image\" style=\"width: 1920px\"><a class=\"fluid-height\" style=\"padding-bottom:56.3%\" href=\"https://static.giantbomb.com/uploads/original/5/55514/3038955-seven01.jpg\" data-ref-id=\"1300-3038955\"><img alt=\"As a kind of inverse-Skyrim, if you see a pit chances are you can climb into it.\" src=\"https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3038955-seven01.jpg\" srcset=\"https://giantbomb1.cbsistatic.com/uploads/original/5/55514/3038955-seven01.jpg 1920w, https://giantbomb1.cbsistatic.com/uploads/scale_super/5/55514/3038955-seven01.jpg 960w, https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3038955-seven01.jpg 480w\" sizes=\"(max-width: 480px) 100vw, 480px\" data-width=\"480\"></a><figcaption>As a kind of inverse-Skyrim, if you see a pit chances are you can climb into it.</figcaption></figure><p><em>Seven: The Days Long Gone</em> is an isometric RPG set on the open world prison island of Peh. Set in a post-apocalypse after technology has been rediscovered and civilization brought back up to a cyberpunk dystopia, the player takes control of Teriel, a master thief who falls victim to an elaborate plot that gets him caught during a heist and thrown onto Peh. From there, the player is free to explore nearly the entire island by utilizing cunning, stealth, and a surprisingly robust and mobile parkour system. The player is free to pickpocket or backstab whoever they see fit, so long as they can get away with it.</p><p> </p><h2>Gameplay</h2><figure data-align=\"left\" data-size=\"small\" data-img-src=\"https://static.giantbomb.com/uploads/original/5/55514/3039137-seven04.jpg\" data-ref-id=\"1300-3039137\" data-ratio=\"0.5625\" data-width=\"1920\" data-embed-type=\"image\" style=\"width: 1920px\"><a class=\"fluid-height\" style=\"padding-bottom:56.3%\" href=\"https://static.giantbomb.com/uploads/original/5/55514/3039137-seven04.jpg\" data-ref-id=\"1300-3039137\"><img alt=\"The open-world prison island of Peh.\" src=\"https://giantbomb1.cbsistatic.com/uploads/scale_small/5/55514/3039137-seven04.jpg\" srcset=\"https://giantbomb1.cbsistatic.com/uploads/original/5/55514/3039137-seven04.jpg 1920w, https://giantbomb1.cbsistatic.com/uploads/scale_super/5/55514/3039137-seven04.jpg 960w, https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3039137-seven04.jpg 480w, https://giantbomb1.cbsistatic.com/uploads/scale_small/5/55514/3039137-seven04.jpg 320w\" sizes=\"(max-width: 320px) 100vw, 320px\" data-width=\"320\"></a><figcaption>The open-world prison island of Peh.</figcaption></figure><p><em>Seven: The Days Long Gone</em> is played from a freely rotating isometric camera. After a brief tutorial set in a futuristic cyberpunk city, the player is captured while attempting a heist when the object they were seeking turns out to be a technological daemon that possesses the player. Waking up on a ship headed to the prison isle of Peh the player is processed into the system and welcomed to the first town, at which point the game opens up the rest of the island so long as the player is up for exploring it. The island is divided into several zones, each of which requiring a higher level visa to legally enter. Just because the player doesn't have the appropriate level visa, however, doesn't prevent the player from entering and exploring an area.</p><p>Exploration is facilitated generously by a parkour/free-climbing system that allows the player to climb almost anywhere they can see. From the very start of the game the player is allowed to climb up and over into guard posts, restricted areas, and higher level visa zones freely. The game encourages this exploration with abundant pipes, ducts, and other makeshift routes to maneuver around the intended thoroughfare.</p><p>The game also has a strong emphasis on stealth with the ability to sneak past and around guards and other enemies, pickpocket anyone in the game, pick locks, and do strong backstabs and drop attacks on unaware enemies. The player can also acquire full sets of clothing for many of the game's factions and disguise themselves to blend in.</p><p>Combat is simple but has variation within the weapons the player has equipped. While daggers are quick and allow for mid-combat backstabs, a slow axe will hit much harder. The game strongly encourages stealth with the player being outnumbered in most encounters.</p><h2>RPG Elements</h2><figure data-align=\"right\" data-size=\"medium\" data-img-src=\"https://static.giantbomb.com/uploads/original/5/55514/3039140-seven02.jpg\" data-ref-id=\"1300-3039140\" data-ratio=\"0.5625\" data-width=\"1920\" data-embed-type=\"image\" style=\"width: 1920px\"><a class=\"fluid-height\" style=\"padding-bottom:56.3%\" href=\"https://static.giantbomb.com/uploads/original/5/55514/3039140-seven02.jpg\" data-ref-id=\"1300-3039140\"><img alt=\"The player, in full disguise as a technomagi, stealthily backstabs one.\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" sizes=\"(max-width: 480px) 100vw, 480px\" data-width=\"480\" class=\"js-lazy-load-image\" data-src=\"https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3039140-seven02.jpg\" data-srcset=\"https://giantbomb1.cbsistatic.com/uploads/original/5/55514/3039140-seven02.jpg 1920w, https://giantbomb1.cbsistatic.com/uploads/scale_super/5/55514/3039140-seven02.jpg 960w, https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3039140-seven02.jpg 480w\"><noscript><img alt=\"The player, in full disguise as a technomagi, stealthily backstabs one.\" src=\"https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3039140-seven02.jpg\" srcset=\"https://giantbomb1.cbsistatic.com/uploads/original/5/55514/3039140-seven02.jpg 1920w, https://giantbomb1.cbsistatic.com/uploads/scale_super/5/55514/3039140-seven02.jpg 960w, https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/55514/3039140-seven02.jpg 480w\" sizes=\"(max-width: 480px) 100vw, 480px\" data-width=\"480\"></noscript></a><figcaption>The player, in full disguise as a technomagi, stealthily backstabs one.</figcaption></figure><p>Though being classified as an isometric open-world RPG, the actual RPG gameplay elements in <em>Seven: The Days Long Gone</em> are fairly light. The game has no leveling or experience to speak of. Likewise, the dialogue has few options and no opportunities for persuasion. Skills are found scattered throughout the island and can be equipped in a limited capacity. The RPG elements mostly stem from the fact that, after being loosed onto Peh, the player is free to use their toolset to explore the island as they see fit. The player can pickpocket from anyone (including entire inventories of shopkeepers) and, provided they have high enough thieving skills equipped, open almost any door.</p>",
+            "expected_release_day": 1,
+            "expected_release_month": 12,
+            "expected_release_quarter": null,
+            "expected_release_year": 2017,
+            "guid": "3030-50641",
+            "id": 50641,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/3088124-poster.jpg",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/3088124-poster.jpg",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/3088124-poster.jpg",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/3088124-poster.jpg",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/3088124-poster.jpg",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/3088124-poster.jpg",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/3088124-poster.jpg",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/3088124-poster.jpg",
+                "original_url": "https://www.giantbomb.com/api/image/original/3088124-poster.jpg",
+                "image_tags": "All Images"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-50641/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 3
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-50641/?filter=image_tag%3APAX+East+2016",
+                    "name": "PAX East 2016",
+                    "total": 1
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-50641/?filter=image_tag%3AScreenshots",
+                    "name": "Screenshots",
+                    "total": 8
+                }
+            ],
+            "name": "Seven: The Days Long Gone",
+            "number_of_user_reviews": 0,
+            "original_game_rating": null,
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+                    "abbreviation": "PC"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/seven-the-days-long-gone/3030-50641/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-55456/",
+            "date_added": "2016-09-13 00:03:59",
+            "date_last_updated": "2016-09-15 19:38:12",
+            "deck": null,
+            "description": "<p>Currently a concept demo, Rides with Strangers is a simulation horror game from <a href=\"/reflect-studios/3010-13088/\" data-ref-id=\"3010-13088\">Reflect Studios</a>, creators of <a href=\"/welcome-to-the-game/3030-54696/\" data-ref-id=\"3030-54696\">Welcome To The Game</a>. Successfully funded on kick-starter and officially greenlight on steam, look for the official release on the games's facebook, twitter, and developer's website, a concept demo is available on gamejolt for game play.</p><p> </p><p>Players hitchhike along the road as Elora, waiting for very \"specific\" strangers to pick her up and take her to her destination. Rides with Strangers taps in to that fear of walking along at night, the possibility of getting abducted by a \"good Samaritan\" willing to drive the player along the road.</p>",
+            "expected_release_day": null,
+            "expected_release_month": 12,
+            "expected_release_quarter": null,
+            "expected_release_year": 2016,
+            "guid": "3030-55456",
+            "id": 55456,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/3026329-gb_default-16_9.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/3026329-gb_default-16_9.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/3026329-gb_default-16_9.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/3026329-gb_default-16_9.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/3026329-gb_default-16_9.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/3026329-gb_default-16_9.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/3026329-gb_default-16_9.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/3026329-gb_default-16_9.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/3026329-gb_default-16_9.png",
+                "image_tags": "All Images"
+            },
+            "image_tags": [],
+            "name": "Rides With Strangers",
+            "number_of_user_reviews": 0,
+            "original_game_rating": null,
+            "original_release_date": null,
+            "platforms": null,
+            "site_detail_url": "https://www.giantbomb.com/rides-with-strangers/3030-55456/",
+            "resource_type": "game"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://www.giantbomb.com/api/game/3030-57883/",
+            "date_added": "2017-01-23 18:26:29",
+            "date_last_updated": "2017-01-25 00:06:10",
+            "deck": "3D Mega Rides Avenger",
+            "description": null,
+            "expected_release_day": 4,
+            "expected_release_month": 5,
+            "expected_release_quarter": null,
+            "expected_release_year": 2016,
+            "guid": "3030-57883",
+            "id": 57883,
+            "image": {
+                "icon_url": "https://www.giantbomb.com/api/image/square_avatar/3026329-gb_default-16_9.png",
+                "medium_url": "https://www.giantbomb.com/api/image/scale_medium/3026329-gb_default-16_9.png",
+                "screen_url": "https://www.giantbomb.com/api/image/screen_medium/3026329-gb_default-16_9.png",
+                "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/3026329-gb_default-16_9.png",
+                "small_url": "https://www.giantbomb.com/api/image/scale_small/3026329-gb_default-16_9.png",
+                "super_url": "https://www.giantbomb.com/api/image/scale_large/3026329-gb_default-16_9.png",
+                "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/3026329-gb_default-16_9.png",
+                "tiny_url": "https://www.giantbomb.com/api/image/square_mini/3026329-gb_default-16_9.png",
+                "original_url": "https://www.giantbomb.com/api/image/original/3026329-gb_default-16_9.png",
+                "image_tags": "All Images"
+            },
+            "image_tags": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/images/3030-57883/?filter=image_tag%3AAll+Images",
+                    "name": "All Images",
+                    "total": 1
+                }
+            ],
+            "name": "3D Mega Rides Avenger",
+            "number_of_user_reviews": 0,
+            "original_game_rating": null,
+            "original_release_date": null,
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+                    "abbreviation": "PC"
+                }
+            ],
+            "site_detail_url": "https://www.giantbomb.com/3d-mega-rides-avenger/3030-57883/",
+            "resource_type": "game"
+        }
+    ],
+    "version": "1.0"
+}

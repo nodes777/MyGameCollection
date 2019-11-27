@@ -19,6 +19,13 @@ export default class AddGameScreen extends React.Component {
   async componentDidMount() {
     const { status } = await Permissions.askAsync(Permissions.CAMERA);
     this.setState({ hasCameraPermission: status === "granted" });
+    getGameDataFromBarcode().then(gameDataFromBarcode => {
+      console.log("after getGameData");
+
+      this.setState({ isReadingBarcode: false });
+      //if we have no errors and found a game, go to new screen
+      this.props.navigation.navigate("AddDetailsScreen", gameDataFromBarcode);
+    });
   }
 
   handleTorch() {}
