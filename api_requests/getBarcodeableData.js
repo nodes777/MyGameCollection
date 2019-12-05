@@ -24,8 +24,8 @@ export const getBarcodeableData = async barcodeValue => {
 				new_price: response.data.item.matched_items[0].new_price,
 				used_price: response.data.item.matched_items[0].used_price,
 				amazon_url: response.data.item.matched_items[0].url,
-				description: response.data.item.matched_items[0].description,
-				images: response.data.item.matched_items[0].images
+				description: response.data.item.matched_items[0].description
+				//images: response.data.item.matched_items[0].images
 			};
 
 			// need to determine publisher and developer

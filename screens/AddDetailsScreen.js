@@ -31,9 +31,6 @@ export default class AddDetailsScreen extends React.Component {
     return (
       <ScrollView style={styles.container}>
         <Text style={{ fontSize: 18, marginBottom: 10, color: "black" }}>
-          Details Screen
-        </Text>
-        <Text style={{ fontSize: 18, marginBottom: 10, color: "black" }}>
           Title
         </Text>
         <TextInput
@@ -52,11 +49,17 @@ export default class AddDetailsScreen extends React.Component {
           label="Developer"
           style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
           onChangeText={text => this.onChangeText(text)}
-          value={gameDataFromBarcode.title}
+          value={gameDataFromBarcode.developers[0]}
+        />
+        <TextInput
+          label="Release Date"
+          style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
+          onChangeText={text => this.onChangeText(text)}
+          value={gameDataFromBarcode.releaseDate}
         />
         <Image
-          source={{ uri: `${gameDataFromBarcode.images[0]}` }}
-          style={{ width: 400, height: 400 }}
+          source={{ uri: `${gameDataFromBarcode.images.medium_url}` }}
+          style={{ width: 300, height: 400 }}
         />
         <Text style={{ fontSize: 18, marginBottom: 10, color: "black" }}>
           {JSON.stringify(gameDataFromBarcode)}

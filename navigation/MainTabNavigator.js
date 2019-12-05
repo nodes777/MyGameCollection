@@ -8,8 +8,11 @@ import {
 import TabBarIcon from "../components/TabBarIcon";
 import HomeScreen from "../screens/HomeScreen";
 import LinksScreen from "../screens/LinksScreen";
+
 import AddGameScreen from "../screens/AddGameScreen";
+import ConfirmGameScreen from "../screens/ConfirmGameScreen";
 import AddDetailsScreen from "../screens/AddDetailsScreen";
+
 import SettingsScreen from "../screens/SettingsScreen";
 
 const config = Platform.select({
@@ -45,6 +48,7 @@ HomeStack.path = "";
 const AddGameStack = createStackNavigator(
   {
     AddGameScreen: AddGameScreen,
+    ConfirmGameScreen: ConfirmGameScreen,
     AddDetailsScreen: AddDetailsScreen
   },
   config

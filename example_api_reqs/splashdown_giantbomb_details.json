@@ -1,0 +1,325 @@
+{
+    "error": "OK",
+    "limit": 1,
+    "offset": 0,
+    "number_of_page_results": 1,
+    "number_of_total_results": 1,
+    "status_code": 1,
+    "results": {
+        "aliases": null,
+        "api_detail_url": "https://www.giantbomb.com/api/game/3030-27363/",
+        "date_added": "2009-07-15 16:11:52",
+        "date_last_updated": "2013-05-28 05:21:24",
+        "deck": "Splashdown: Rides Gone Wild is a jet-ski racing game and sequel to the 2001 PS2 and Xbox game, developed by Rainbow Studios and published by THQ.",
+        "description": "<h2>Overview</h2><p>Splashdown: Rides Gone Wild is an arcade racing game developed by <a href=\"/rainbow-studios/3010-2700/\" data-ref-id=\"3010-2700\">Rainbow Studios</a> and published by <a href=\"/thq/3010-15/\" data-ref-id=\"3010-15\">THQ</a> on the <a href=\"/playstation-2/3045-19/\" data-ref-id=\"3045-19\">PlayStation 2</a> and <a href=\"/xbox/3045-32/\" data-ref-id=\"3045-32\">Xbox</a>. It is a jet ski-based racer and is a sequel to <a href=\"/splashdown/3030-10951/\" data-ref-id=\"3030-10951\">Splashdown</a>, a much more realistic jet-ski game developed by the same studio and published by <a href=\"/atari-sa/3010-548/\" data-ref-id=\"3010-548\">Atari</a>. Rides Gone Wild takes a much more arcade-style approach to the genre, similar to games like <a href=\"/hydro-thunder/3030-13241/\" data-ref-id=\"3030-13241\">Hydro Thunder</a>, featuring incredibly exaggerated tricksets, over-characterized racers and theme-park like levels.</p><h2>Characters</h2><p>Below is a table of all the characters and their attributes. The attributes in the game are speed, acceleration, handling, and stability. Each attribute is given a rating out of 5, with 5 being the highest.</p><table data-max-width=\"false\"><thead><tr><th scope=\"col\">Character</th><th scope=\"col\">Acceleration</th><th scope=\"col\">Speed</th><th scope=\"col\">Handling</th><th scope=\"col\">Stability</th></tr></thead><tbody><tr><td>Andy Pierce</td><td>3</td><td>4</td><td>3</td><td>3</td></tr><tr><td>Haily Hollister</td><td>3</td><td>3</td><td>4</td><td>3</td></tr><tr><td>Jonah Barrett</td><td>2</td><td>5</td><td>3</td><td>3</td></tr><tr><td>Kyoko Takahashi</td><td>5</td><td>3</td><td>3</td><td>2</td></tr><tr><td>Sha-Blamm!!</td><td>5</td><td>3</td><td>4</td><td>1</td></tr><tr><td>Coral Suarez</td><td>4</td><td>3</td><td>4</td><td>2</td></tr><tr><td>Amman Ra</td><td>4</td><td>3</td><td>5</td><td>1</td></tr><tr><td>\"Wrong Way\" McNabb</td><td>4</td><td>5</td><td>3</td><td>1</td></tr><tr><td>Sneaky Pete</td><td>4</td><td>4</td><td>5</td><td>3</td></tr><tr><td>Zug Zug</td><td>4</td><td>5</td><td>4</td><td>3</td></tr><tr><td>Rotney</td><td>5</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Michael Hawke</td><td>5</td><td>5</td><td>5</td><td>1</td></tr></tbody></table><p> </p><h2>Soundtrack</h2><table data-max-width=\"false\"><thead><tr><th scope=\"col\">Artist</th><th scope=\"col\">Song Title</th></tr></thead><tbody><tr><td>The Boss Martians</td><td>\"AMX\"</td></tr><tr><td>The Exies</td><td>\"My Goddess\"</td></tr><tr><td>Soilwork</td><td>\"Natural Born Chaos\"</td></tr><tr><td>Audiovent</td><td>\"Gravity\"</td></tr><tr><td>The Donnas</td><td>\"Who Invited You\"</td></tr><tr><td>Audiovent</td><td>\"Energy\"</td></tr><tr><td>Juno Reactor</td><td>\"Hotaka\"</td></tr><tr><td>Treble Charger</td><td>\"Hundred Million\"</td></tr><tr><td>Kazzer</td><td>\"Pedal to the Metal\"</td></tr><tr><td>In Flames</td><td>\"Drifter\"</td></tr><tr><td>Reef</td><td>\"Set The Records Straight\"</td></tr></tbody></table><p><strong>Note: </strong>\"Pedal to the Metal\" plays during the intro movie when the game begins.</p>",
+        "expected_release_day": 5,
+        "expected_release_month": 8,
+        "expected_release_quarter": null,
+        "expected_release_year": 2003,
+        "guid": "3030-27363",
+        "id": 27363,
+        "image": {
+            "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2213177-box_sdownrgw.png",
+            "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2213177-box_sdownrgw.png",
+            "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2213177-box_sdownrgw.png",
+            "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2213177-box_sdownrgw.png",
+            "small_url": "https://www.giantbomb.com/api/image/scale_small/2213177-box_sdownrgw.png",
+            "super_url": "https://www.giantbomb.com/api/image/scale_large/2213177-box_sdownrgw.png",
+            "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2213177-box_sdownrgw.png",
+            "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2213177-box_sdownrgw.png",
+            "original_url": "https://www.giantbomb.com/api/image/original/2213177-box_sdownrgw.png",
+            "image_tags": "All Images,Box Art"
+        },
+        "image_tags": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/images/3030-27363/?filter=image_tag%3AAll+Images",
+                "name": "All Images",
+                "total": 2
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/images/3030-27363/?filter=image_tag%3ABox+Art",
+                "name": "Box Art",
+                "total": 1
+            }
+        ],
+        "name": "Splashdown: Rides Gone Wild",
+        "number_of_user_reviews": 0,
+        "original_game_rating": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-6/",
+                "id": 6,
+                "name": "ESRB: E"
+            }
+        ],
+        "original_release_date": null,
+        "platforms": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/platform/3045-19/",
+                "id": 19,
+                "name": "PlayStation 2",
+                "site_detail_url": "https://www.giantbomb.com/playstation-2/3045-19/",
+                "abbreviation": "PS2"
+            }
+        ],
+        "site_detail_url": "https://www.giantbomb.com/splashdown-rides-gone-wild/3030-27363/",
+        "images": [
+            {
+                "icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/87790/2213177-box_sdownrgw.png",
+                "medium_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/87790/2213177-box_sdownrgw.png",
+                "screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/87790/2213177-box_sdownrgw.png",
+                "small_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/87790/2213177-box_sdownrgw.png",
+                "super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/8/87790/2213177-box_sdownrgw.png",
+                "thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/87790/2213177-box_sdownrgw.png",
+                "tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/8/87790/2213177-box_sdownrgw.png",
+                "original": "https://giantbomb1.cbsistatic.com/uploads/original/8/87790/2213177-box_sdownrgw.png",
+                "tags": "All Images, Box Art"
+            },
+            {
+                "icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/4/45065/1081702-2068_1.jpg",
+                "medium_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/4/45065/1081702-2068_1.jpg",
+                "screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/4/45065/1081702-2068_1.jpg",
+                "small_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/4/45065/1081702-2068_1.jpg",
+                "super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/4/45065/1081702-2068_1.jpg",
+                "thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/4/45065/1081702-2068_1.jpg",
+                "tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/4/45065/1081702-2068_1.jpg",
+                "original": "https://giantbomb1.cbsistatic.com/uploads/original/4/45065/1081702-2068_1.jpg",
+                "tags": "All Images"
+            }
+        ],
+        "videos": [],
+        "characters": null,
+        "concepts": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/concept/3015-9159/",
+                "id": 9159,
+                "name": "PS2 Classics",
+                "site_detail_url": "https://www.giantbomb.com/ps2-classics/3015-9159/"
+            }
+        ],
+        "developers": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/company/3010-2700/",
+                "id": 2700,
+                "name": "Rainbow Studios",
+                "site_detail_url": "https://www.giantbomb.com/rainbow-studios/3010-2700/"
+            }
+        ],
+        "first_appearance_characters": null,
+        "first_appearance_concepts": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/concept/3015-9159/",
+                "id": 9159,
+                "name": "PS2 Classics",
+                "site_detail_url": "https://www.giantbomb.com/ps2-classics/3015-9159/"
+            }
+        ],
+        "first_appearance_locations": null,
+        "first_appearance_objects": null,
+        "first_appearance_people": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-63372/",
+                "id": 63372,
+                "name": "Michael Klucher",
+                "site_detail_url": "https://www.giantbomb.com/michael-klucher/3040-63372/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-19832/",
+                "id": 19832,
+                "name": "Kathy Helgason",
+                "site_detail_url": "https://www.giantbomb.com/kathy-helgason/3040-19832/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-69551/",
+                "id": 69551,
+                "name": "Jordan Itkowitz",
+                "site_detail_url": "https://www.giantbomb.com/jordan-itkowitz/3040-69551/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101351/",
+                "id": 101351,
+                "name": "Chris Gabrish",
+                "site_detail_url": "https://www.giantbomb.com/chris-gabrish/3040-101351/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101363/",
+                "id": 101363,
+                "name": "Elliott Olson",
+                "site_detail_url": "https://www.giantbomb.com/elliott-olson/3040-101363/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101365/",
+                "id": 101365,
+                "name": "Jess Heinl",
+                "site_detail_url": "https://www.giantbomb.com/jess-heinl/3040-101365/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-62693/",
+                "id": 62693,
+                "name": "David Lowmiller",
+                "site_detail_url": "https://www.giantbomb.com/david-lowmiller/3040-62693/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101380/",
+                "id": 101380,
+                "name": "Andre Kirk",
+                "site_detail_url": "https://www.giantbomb.com/andre-kirk/3040-101380/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101381/",
+                "id": 101381,
+                "name": "Travis K. Riffle",
+                "site_detail_url": "https://www.giantbomb.com/travis-k-riffle/3040-101381/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-63374/",
+                "id": 63374,
+                "name": "Andy Sinur",
+                "site_detail_url": "https://www.giantbomb.com/andy-sinur/3040-63374/"
+            }
+        ],
+        "franchises": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/franchise/3025-2072/",
+                "id": 2072,
+                "name": "Splashdown",
+                "site_detail_url": "https://www.giantbomb.com/splashdown/3025-2072/"
+            }
+        ],
+        "genres": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/genre/3060-6/",
+                "id": 6,
+                "name": "Driving/Racing",
+                "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=drivingracing&wikiTypeId=3060&wikiId=6&genre=6"
+            }
+        ],
+        "killed_characters": null,
+        "locations": null,
+        "objects": null,
+        "people": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-63372/",
+                "id": 63372,
+                "name": "Michael Klucher",
+                "site_detail_url": "https://www.giantbomb.com/michael-klucher/3040-63372/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-19832/",
+                "id": 19832,
+                "name": "Kathy Helgason",
+                "site_detail_url": "https://www.giantbomb.com/kathy-helgason/3040-19832/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-69551/",
+                "id": 69551,
+                "name": "Jordan Itkowitz",
+                "site_detail_url": "https://www.giantbomb.com/jordan-itkowitz/3040-69551/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101351/",
+                "id": 101351,
+                "name": "Chris Gabrish",
+                "site_detail_url": "https://www.giantbomb.com/chris-gabrish/3040-101351/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101363/",
+                "id": 101363,
+                "name": "Elliott Olson",
+                "site_detail_url": "https://www.giantbomb.com/elliott-olson/3040-101363/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101365/",
+                "id": 101365,
+                "name": "Jess Heinl",
+                "site_detail_url": "https://www.giantbomb.com/jess-heinl/3040-101365/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-62693/",
+                "id": 62693,
+                "name": "David Lowmiller",
+                "site_detail_url": "https://www.giantbomb.com/david-lowmiller/3040-62693/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101380/",
+                "id": 101380,
+                "name": "Andre Kirk",
+                "site_detail_url": "https://www.giantbomb.com/andre-kirk/3040-101380/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-101381/",
+                "id": 101381,
+                "name": "Travis K. Riffle",
+                "site_detail_url": "https://www.giantbomb.com/travis-k-riffle/3040-101381/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/person/3040-63374/",
+                "id": 63374,
+                "name": "Andy Sinur",
+                "site_detail_url": "https://www.giantbomb.com/andy-sinur/3040-63374/"
+            }
+        ],
+        "publishers": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/publisher/3010-15/",
+                "id": 15,
+                "name": "THQ",
+                "site_detail_url": "https://www.giantbomb.com/thq/3010-15/"
+            }
+        ],
+        "releases": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/release/3050-124324/",
+                "id": 124324,
+                "name": "Splashdown: Rides Gone Wild",
+                "site_detail_url": "https://www.giantbomb.com/splashdown-rides-gone-wild/3030-27363/release/3050-124324/"
+            }
+        ],
+        "similar_games": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game/3030-9485/",
+                "id": 9485,
+                "name": "Surf Rocket Racers",
+                "site_detail_url": "https://www.giantbomb.com/surf-rocket-racers/3030-9485/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game/3030-7880/",
+                "id": 7880,
+                "name": "Jet Moto",
+                "site_detail_url": "https://www.giantbomb.com/jet-moto/3030-7880/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game/3030-19986/",
+                "id": 19986,
+                "name": "Carve",
+                "site_detail_url": "https://www.giantbomb.com/carve/3030-19986/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game/3030-13924/",
+                "id": 13924,
+                "name": "Cobra Triangle",
+                "site_detail_url": "https://www.giantbomb.com/cobra-triangle/3030-13924/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game/3030-11105/",
+                "id": 11105,
+                "name": "Wave Race",
+                "site_detail_url": "https://www.giantbomb.com/wave-race/3030-11105/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/game/3030-13241/",
+                "id": 13241,
+                "name": "Hydro Thunder",
+                "site_detail_url": "https://www.giantbomb.com/hydro-thunder/3030-13241/"
+            }
+        ],
+        "themes": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/theme/3032-31/",
+                "id": 31,
+                "name": "Aquatic",
+                "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=aquatic&wikiTypeId=3032&wikiId=31&theme=31"
+            }
+        ]
+    },
+    "version": "1.0"
+}

@@ -24,7 +24,7 @@ export default class AddGameScreen extends React.Component {
 
       this.setState({ isReadingBarcode: false });
       //if we have no errors and found a game, go to new screen
-      this.props.navigation.navigate("AddDetailsScreen", gameDataFromBarcode);
+      this.props.navigation.navigate("ConfirmGameScreen", gameDataFromBarcode);
     });
   }
 
@@ -39,7 +39,10 @@ export default class AddGameScreen extends React.Component {
 
         this.setState({ isReadingBarcode: false });
         //if we have no errors and found a game, go to new screen
-        this.props.navigation.navigate("AddDetailsScreen", gameDataFromBarcode);
+        this.props.navigation.navigate(
+          "ConfirmGameScreen",
+          gameDataFromBarcode
+        );
       });
 
       //Alert.alert(title);

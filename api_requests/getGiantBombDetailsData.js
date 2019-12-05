@@ -14,17 +14,28 @@ export const getGiantBombDetailsData = async guid => {
 		.then(gbDetailsData => {
 			console.log("Getting game details from Giant Bomb");
 
+			const details = {
+				releaseDay: gbDetailsData.data.results.expected_release_day,
+				releaseMonth: gbDetailsData.data.results.expected_release_month,
+				releaseYear: gbDetailsData.data.results.expected_release_year
+			};
+
 			const developers = gbDetailsData.data.results.developers.map(
 				dev => {
-					dev.name;
+					return dev.name;
+				}
+			);
+			const publishers = gbDetailsData.data.results.publishers.map(
+				pub => {
+					return pub.name;
 				}
 			);
 
-			const releaseDay = gbDetailsData.data.results.expected_release_day;
-			const releaseMonth =
-				gbDetailsData.data.results.expected_release_month;
-			const releaseYear =
-				gbDetailsData.data.results.expected_release_year;
+			details.developers = developers;
+			details.publishers = publishers;
+			details.releaseDate = `${details.releaseMonth}/${
+				details.releaseDay
+			}/${details.releaseYear}`;
 
 			return details;
 		})

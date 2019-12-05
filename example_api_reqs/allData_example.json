@@ -1,0 +1,41 @@
+{
+  "amazon_url": "https://www.amazon.com/Splash-Down-Rides-Gone-Wild/dp/B00008J2V0",
+  "brand": "THQ",
+  "company_name": "Kokopeli",
+  "deck": "Splashdown: Rides Gone Wild is a jet-ski racing game and sequel to the 2001 PS2 and Xbox game, developed by Rainbow Studios and published by THQ.",
+  "description": "<h2>Overview</h2><p>Splashdown: Rides Gone Wild is an arcade racing game developed by <a href=\"/rainbow-studios/3010-2700/\" data-ref-id=\"3010-2700\">Rainbow Studios</a> and published by <a href=\"/thq/3010-15/\" data-ref-id=\"3010-15\">THQ</a> on the <a href=\"/playstation-2/3045-19/\" data-ref-id=\"3045-19\">PlayStation 2</a> and <a href=\"/xbox/3045-32/\" data-ref-id=\"3045-32\">Xbox</a>. It is a jet ski-based racer and is a sequel to <a href=\"/splashdown/3030-10951/\" data-ref-id=\"3030-10951\">Splashdown</a>, a much more realistic jet-ski game developed by the same studio and published by <a href=\"/atari-sa/3010-548/\" data-ref-id=\"3010-548\">Atari</a>. Rides Gone Wild takes a much more arcade-style approach to the genre, similar to games like <a href=\"/hydro-thunder/3030-13241/\" data-ref-id=\"3030-13241\">Hydro Thunder</a>, featuring incredibly exaggerated tricksets, over-characterized racers and theme-park like levels.</p><h2>Characters</h2><p>Below is a table of all the characters and their attributes. The attributes in the game are speed, acceleration, handling, and stability. Each attribute is given a rating out of 5, with 5 being the highest.</p><table data-max-width=\"false\"><thead><tr><th scope=\"col\">Character</th><th scope=\"col\">Acceleration</th><th scope=\"col\">Speed</th><th scope=\"col\">Handling</th><th scope=\"col\">Stability</th></tr></thead><tbody><tr><td>Andy Pierce</td><td>3</td><td>4</td><td>3</td><td>3</td></tr><tr><td>Haily Hollister</td><td>3</td><td>3</td><td>4</td><td>3</td></tr><tr><td>Jonah Barrett</td><td>2</td><td>5</td><td>3</td><td>3</td></tr><tr><td>Kyoko Takahashi</td><td>5</td><td>3</td><td>3</td><td>2</td></tr><tr><td>Sha-Blamm!!</td><td>5</td><td>3</td><td>4</td><td>1</td></tr><tr><td>Coral Suarez</td><td>4</td><td>3</td><td>4</td><td>2</td></tr><tr><td>Amman Ra</td><td>4</td><td>3</td><td>5</td><td>1</td></tr><tr><td>\"Wrong Way\" McNabb</td><td>4</td><td>5</td><td>3</td><td>1</td></tr><tr><td>Sneaky Pete</td><td>4</td><td>4</td><td>5</td><td>3</td></tr><tr><td>Zug Zug</td><td>4</td><td>5</td><td>4</td><td>3</td></tr><tr><td>Rotney</td><td>5</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Michael Hawke</td><td>5</td><td>5</td><td>5</td><td>1</td></tr></tbody></table><p> </p><h2>Soundtrack</h2><table data-max-width=\"false\"><thead><tr><th scope=\"col\">Artist</th><th scope=\"col\">Song Title</th></tr></thead><tbody><tr><td>The Boss Martians</td><td>\"AMX\"</td></tr><tr><td>The Exies</td><td>\"My Goddess\"</td></tr><tr><td>Soilwork</td><td>\"Natural Born Chaos\"</td></tr><tr><td>Audiovent</td><td>\"Gravity\"</td></tr><tr><td>The Donnas</td><td>\"Who Invited You\"</td></tr><tr><td>Audiovent</td><td>\"Energy\"</td></tr><tr><td>Juno Reactor</td><td>\"Hotaka\"</td></tr><tr><td>Treble Charger</td><td>\"Hundred Million\"</td></tr><tr><td>Kazzer</td><td>\"Pedal to the Metal\"</td></tr><tr><td>In Flames</td><td>\"Drifter\"</td></tr><tr><td>Reef</td><td>\"Set The Records Straight\"</td></tr></tbody></table><p><strong>Note: </strong>\"Pedal to the Metal\" plays during the intro movie when the game begins.</p>",
+  "developers": ["Rainbow Studios"],
+  "guid": "3030-27363",
+  "id": 27363,
+  "images": {
+    "icon_url": "https://www.giantbomb.com/api/image/square_avatar/2213177-box_sdownrgw.png",
+    "image_tags": "All Images,Box Art",
+    "medium_url": "https://www.giantbomb.com/api/image/scale_medium/2213177-box_sdownrgw.png",
+    "original_url": "https://www.giantbomb.com/api/image/original/2213177-box_sdownrgw.png",
+    "screen_large_url": "https://www.giantbomb.com/api/image/screen_kubrick/2213177-box_sdownrgw.png",
+    "screen_url": "https://www.giantbomb.com/api/image/screen_medium/2213177-box_sdownrgw.png",
+    "small_url": "https://www.giantbomb.com/api/image/scale_small/2213177-box_sdownrgw.png",
+    "super_url": "https://www.giantbomb.com/api/image/scale_large/2213177-box_sdownrgw.png",
+    "thumb_url": "https://www.giantbomb.com/api/image/scale_avatar/2213177-box_sdownrgw.png",
+    "tiny_url": "https://www.giantbomb.com/api/image/square_mini/2213177-box_sdownrgw.png"
+  },
+  "manufacturer": "THQ",
+  "name": "Splashdown: Rides Gone Wild",
+  "new_price": 13.99,
+  "platform": ["PlayStation 2"],
+  "platforms": [
+    {
+      "abbreviation": "PS2",
+      "api_detail_url": "https://www.giantbomb.com/api/platform/3045-19/",
+      "id": 19,
+      "name": "PlayStation 2",
+      "site_detail_url": "https://www.giantbomb.com/playstation-2/3045-19/"
+    }
+  ],
+  "releaseDay": 5,
+  "releaseMonth": 8,
+  "releaseYear": 2003,
+  "release_date": "8/5/2003",
+  "title": "Splash Down: Rides Gone Wild",
+  "used_price": 1.55
+}
