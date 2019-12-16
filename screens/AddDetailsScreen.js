@@ -8,8 +8,11 @@ import {
   Alert,
   Switch,
   TextInput,
-  Image
+  Image,
+  KeyboardAvoidingView,
+  Platform
 } from "react-native";
+import { Header, N } from "react-navigation";
 import * as Permissions from "expo-permissions";
 import { Camera } from "expo-camera";
 
@@ -33,9 +36,6 @@ export default class AddDetailsScreen extends React.Component {
     comments: ""
   };
 
-  onChangeText() {
-    this.setState({});
-  }
   onChangePriceAcquired(text) {
     let newText = "";
     let numbers = "0123456789";
@@ -50,10 +50,19 @@ export default class AddDetailsScreen extends React.Component {
     this.setState({ priceAcquired: newText });
   }
 
-  render() {
+  onFinishPress = () => {
+    const detailsOnCopy = this.state;
     const gameDataFromBarcode = this.props.navigation.state.params;
+    const gameData = { detailsOnCopy, gameDataFromBarcode };
+    console.log(gameData);
+  };
+
+  render() {
     return (
-      <ScrollView style={styles.container}>
+      <KeyboardAvoidingView
+        keyboardVerticalOffset={Header.HEIGHT + 500}
+        enabled
+      >
         <Text style={styles.heading}>Missing:</Text>
         <View style={{ flexDirection: "row" }}>
           <Switch
@@ -103,7 +112,7 @@ export default class AddDetailsScreen extends React.Component {
                 width: 240
               }
             ]}
-            onChangeText={text => this.onChangeText(text)}
+            onChangeText={text => this.setState({ missingOther: text })}
             value={this.state.missingOtherText}
           />
         </View>
@@ -182,7 +191,7 @@ export default class AddDetailsScreen extends React.Component {
             <TextInput
               label="Location Acquired"
               style={styles.textInput}
-              onChangeText={text => this.onChangeText(text)}
+              onChangeText={text => this.setState({ locationAcquired: text })}
               value={this.state.locationAcquired}
             />
           </View>
@@ -191,20 +200,25 @@ export default class AddDetailsScreen extends React.Component {
         <Text style={styles.heading}>Comments:</Text>
         <TextInput
           label="Comments"
+          multiline={true}
+          textAlignVertical="top"
           style={styles.commentsInput}
-          onChangeText={text => this.onChangeText(text)}
+          onChangeText={text => this.setState({ comments: text })}
           value={this.state.comments}
         />
 
         <View style={{ flexDirection: "row", marginTop: 10 }}>
-          <TouchableOpacity style={styles.noButton} onPress={this.onNoPress}>
+          <TouchableOpacity style={styles.backButton} onPress={this.onNoPress}>
             <Text style={styles.buttonText}>Back</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.yesButton} onPress={this.onYesPress}>
+          <TouchableOpacity
+            style={styles.finishButton}
+            onPress={this.onFinishPress}
+          >
             <Text style={styles.buttonText}>Finish</Text>
           </TouchableOpacity>
         </View>
-      </ScrollView>
+      </KeyboardAvoidingView>
     );
   }
 }
@@ -259,14 +273,14 @@ const styles = StyleSheet.create({
     margin: 2
   },
   acquiredContainer: { flexDirection: "row", justifyContent: "space-evenly" },
-  noButton: {
+  backButton: {
     alignItems: "center",
     backgroundColor: "red",
     padding: 10,
     height: 60,
     width: 200
   },
-  yesButton: {
+  finishButton: {
     alignItems: "center",
     backgroundColor: "green",
     padding: 10,
