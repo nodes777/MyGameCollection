@@ -12,7 +12,7 @@ export const getGiantBombSearchData = async title => {
 	})
 		.then(giantBombGameData => {
 			console.log("Getting data from searching Giant Bomb");
-			// take the first result automatically?
+			// this takes the first result automatically
 			const gbSearchData = {
 				id: giantBombGameData.data.results[0].id,
 				guid: giantBombGameData.data.results[0].guid,

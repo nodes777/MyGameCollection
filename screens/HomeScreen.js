@@ -10,7 +10,7 @@ import {
   View
 } from "react-native";
 
-import { MonoText } from "../components/StyledText";
+import { testToDb } from "../firebase/firebaseCall";
 
 export default function HomeScreen() {
   return (
@@ -38,7 +38,7 @@ export default function HomeScreen() {
           <View
             style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
           >
-            <MonoText>screens/HomeScreen.js</MonoText>
+            <Text>screens/HomeScreen.js</Text>
           </View>
 
           <Text style={styles.getStartedText}>Change this text. </Text>
@@ -49,6 +49,15 @@ export default function HomeScreen() {
             <Text style={styles.helpLinkText}>
               Help, it didn’t automatically reload!
             </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            onPress={() => {
+              testToDb();
+            }}
+            style={styles.helpLink}
+          >
+            <Text style={styles.helpLinkText}>Test Firebase</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -61,9 +70,9 @@ export default function HomeScreen() {
         <View
           style={[styles.codeHighlightContainer, styles.navigationFilename]}
         >
-          <MonoText style={styles.codeHighlightText}>
+          <Text style={styles.codeHighlightText}>
             navigation/MainTabNavigator.js
-          </MonoText>
+          </Text>
         </View>
       </View>
     </View>
