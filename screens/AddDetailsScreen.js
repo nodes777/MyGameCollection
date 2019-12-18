@@ -16,6 +16,8 @@ import { Header, N } from "react-navigation";
 import * as Permissions from "expo-permissions";
 import { Camera } from "expo-camera";
 
+import { sendGameToFireStore } from "../firebase/firebaseCall";
+
 export default class AddDetailsScreen extends React.Component {
   constructor(props) {
     super(props);
@@ -52,9 +54,10 @@ export default class AddDetailsScreen extends React.Component {
 
   onFinishPress = () => {
     const detailsOnCopy = this.state;
-    const gameDataFromBarcode = this.props.navigation.state.params;
-    const gameData = { detailsOnCopy, gameDataFromBarcode };
+    const gameDataFromBarcodeAndGiantBomb = this.props.navigation.state.params;
+    const gameData = { detailsOnCopy, gameDataFromBarcodeAndGiantBomb };
     console.log(gameData);
+    sendGameToFireStore(gameData);
   };
 
   render() {
