@@ -44,8 +44,6 @@ export default class AddGameScreen extends React.Component {
           gameDataFromBarcode
         );
       });
-
-      //Alert.alert(title);
     }
   };
 
