@@ -57,14 +57,6 @@ export default class HomeScreen extends React.Component {
 
             <TouchableOpacity
               onPress={() => {
-                facebookLogin();
-              }}
-              style={styles.helpLink}
-            >
-              <Text style={styles.helpLinkText}>Login With Facebook</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => {
                 firebaseLogout();
               }}
               style={styles.helpLink}

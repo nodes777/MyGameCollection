@@ -5,7 +5,7 @@ import {
 	FIRE_STORE_AUTH_DOMAIN,
 	FACEBOOK_APP_ID
 } from "../constants/API_KEY";
-import { Alert } from "react-native";
+import { Alert, AsyncStorage } from "react-native";
 
 // Required for side-effects
 import "firebase/firestore";
@@ -22,8 +22,6 @@ firebase.auth().onAuthStateChanged(user => {
 		console.log("We are authenticated now!");
 		console.log(user.uid);
 	}
-
-	// Do other things
 });
 
 export const sendGameToFireStore = gameData => {
@@ -65,9 +63,7 @@ export async function facebookLogin() {
 		const {
 			type,
 			token,
-			expires,
-			permissions,
-			declinedPermissions
+			permissions
 		} = await Facebook.logInWithReadPermissionsAsync(FACEBOOK_APP_ID, {
 			permissions: ["public_profile"]
 		});
@@ -87,8 +83,12 @@ export async function facebookLogin() {
 			firebase
 				.auth()
 				.signInWithCredential(credential)
+				.then(credential => {
+					// set localStorage with credential
+					_storeCredential(credential.user.uid);
+				})
 				.catch(error => {
-					// Handle Errors here.
+					console.log("Error in Firebase.signInWithCredential: ");
 					console.log(error);
 				});
 		} else {
@@ -99,17 +99,47 @@ export async function facebookLogin() {
 		alert(`Facebook Login Error: ${message}`);
 	}
 }
+
 export async function firebaseLogout() {
 	firebase
 		.auth()
 		.signOut()
 		.then(function() {
+			AsyncStorage.removeItem("userToken", () => {
+				console.log("removed userToken from AsyncStorage");
+			});
 			console.log("User is signed out");
 		})
 		.catch(function(error) {
 			console.log(error);
 		});
 }
+
+export const getUser = () => {
+	AsyncStorage.getItem("userToken", (error, result) => {
+		console.log(error);
+		console.log(result);
+		if (result) {
+			console.log(result);
+			return result;
+		} else {
+			console.log("Error in AsyncStorage getUser");
+			console.log(error);
+		}
+	});
+};
+
+const _storeCredential = async uid => {
+	try {
+		await AsyncStorage.setItem("userToken", uid, () => {
+			console.log("Successful setItem in AsyncStorage");
+		});
+	} catch (error) {
+		console.log("Error saving to AsyncStorage");
+		console.log(error);
+	}
+};
+
 // export const testToDb = () => {
 // 	var db = firebase.firestore();
 
