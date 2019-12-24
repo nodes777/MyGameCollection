@@ -58,6 +58,7 @@ export default class HomeScreen extends React.Component {
             <TouchableOpacity
               onPress={() => {
                 firebaseLogout();
+                this.props.navigation.navigate("Auth");
               }}
               style={styles.helpLink}
             >

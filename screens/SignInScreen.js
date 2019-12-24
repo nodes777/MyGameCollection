@@ -22,7 +22,14 @@ export default class SignInScreen extends React.Component {
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
-            facebookLogin();
+            facebookLogin().then(uid => {
+              //if we get back a uid then go to main screen
+              if (uid) {
+                this.props.navigation.navigate("Main");
+              } else {
+                console.log("No uid returned from facebookLogin");
+              }
+            });
           }}
         >
           <Text>Login With Facebook</Text>

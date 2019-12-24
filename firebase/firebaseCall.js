@@ -80,12 +80,13 @@ export async function facebookLogin() {
 			);
 
 			// Sign in with credential from the Facebook user.
-			firebase
+			return await firebase
 				.auth()
 				.signInWithCredential(credential)
 				.then(credential => {
 					// set localStorage with credential
 					_storeCredential(credential.user.uid);
+					return credential.user.uid;
 				})
 				.catch(error => {
 					console.log("Error in Firebase.signInWithCredential: ");
@@ -101,7 +102,7 @@ export async function facebookLogin() {
 }
 
 export async function firebaseLogout() {
-	firebase
+	await firebase
 		.auth()
 		.signOut()
 		.then(function() {
@@ -109,6 +110,7 @@ export async function firebaseLogout() {
 				console.log("removed userToken from AsyncStorage");
 			});
 			console.log("User is signed out");
+			// send user to signin screen
 		})
 		.catch(function(error) {
 			console.log(error);
