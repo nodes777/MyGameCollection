@@ -16,7 +16,7 @@ import { Header } from "react-navigation";
 import * as Permissions from "expo-permissions";
 import { Camera } from "expo-camera";
 
-import { sendGameToFireStore } from "../firebase/firebaseCall";
+import { sendGameToFireStore } from "../api_requests/firebaseSendAndGet";
 
 export default class AddDetailsScreen extends React.Component {
   constructor(props) {

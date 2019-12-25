@@ -10,7 +10,8 @@ import {
   View
 } from "react-native";
 
-import { facebookLogin, firebaseLogout } from "../firebase/firebaseCall";
+import { firebaseLogout } from "../logins/firebase";
+import { facebookLogin } from "../logins/facebook";
 
 export default class HomeScreen extends React.Component {
   componentDidMount() {

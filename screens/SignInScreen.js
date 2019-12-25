@@ -9,7 +9,9 @@ import {
   Text
 } from "react-native";
 
-import { facebookLogin, getUser } from "../firebase/firebaseCall";
+import { facebookLogin } from "../logins/facebook";
+
+import { getUser } from "../logins/firebase";
 
 export default class SignInScreen extends React.Component {
   static navigationOptions = {
