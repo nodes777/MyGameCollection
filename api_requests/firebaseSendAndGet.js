@@ -7,21 +7,20 @@ export const sendGameToFireStore = async gameData => {
 	console.log("uid: " + uid);
 
 	// must alternate collection then doc
-	db.collection("users")
+	const result = await db
+		.collection("users")
 		.doc(uid)
 		.collection("games")
 		.add(gameData)
 		.then(function(docRef) {
-			console.log(
-				// `${
-				// 	gameData.gameDataFromBarcodeAndGiantBomb.name
-				// }Document written with ID: `,
-				docRef.id
-			);
+			console.log(`Document written with ID: `, docRef.id);
+			return "success";
 		})
 		.catch(function(error) {
 			console.error("Error adding document: ", error);
+			return "failure";
 		});
+	return result;
 };
 
 export const getGameDataFromFireStore = () => {
