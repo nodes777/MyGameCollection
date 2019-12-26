@@ -12,6 +12,7 @@ import {
 
 import { firebaseLogout } from "../logins/firebase";
 import { facebookLogin } from "../logins/facebook";
+import { sendGameToFireStore } from "../api_requests/firebaseSendAndGet";
 
 export default class HomeScreen extends React.Component {
   componentDidMount() {
@@ -64,6 +65,15 @@ export default class HomeScreen extends React.Component {
               style={styles.helpLink}
             >
               <Text style={styles.helpLinkText}>Logout</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              onPress={() => {
+                sendGameToFireStore({ title: "testGame", dev: "me" });
+              }}
+              style={styles.helpLink}
+            >
+              <Text style={styles.helpLinkText}>Sample send to firebase</Text>
             </TouchableOpacity>
           </View>
         </ScrollView>

@@ -56,7 +56,7 @@ export default class AddDetailsScreen extends React.Component {
     const detailsOnCopy = this.state;
     const gameDataFromBarcodeAndGiantBomb = this.props.navigation.state.params;
     const gameData = { detailsOnCopy, gameDataFromBarcodeAndGiantBomb };
-    console.log(gameData);
+    // console.log(gameData);
     sendGameToFireStore(gameData);
   };
 

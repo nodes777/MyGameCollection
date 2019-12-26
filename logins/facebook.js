@@ -1,4 +1,17 @@
 import { storeCredential } from "./firebase";
+import * as Facebook from "expo-facebook";
+import {
+	FIRE_STORE_API_KEY,
+	FIRE_STORE_PROJECT_ID,
+	FIRE_STORE_AUTH_DOMAIN,
+	FACEBOOK_APP_ID
+} from "../constants/API_KEY";
+import { Alert } from "react-native";
+
+import * as firebase from "firebase";
+
+// Required for side-effects
+import "firebase/firestore";
 
 export async function facebookLogin() {
 	try {

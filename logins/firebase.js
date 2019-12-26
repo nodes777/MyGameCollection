@@ -9,7 +9,7 @@ import { Alert, AsyncStorage } from "react-native";
 
 // Required for side-effects
 import "firebase/firestore";
-import * as Facebook from "expo-facebook";
+
 // Initialize Firebase
 firebase.initializeApp({
 	apiKey: FIRE_STORE_API_KEY,
@@ -40,18 +40,17 @@ export const firebaseLogout = async () => {
 		});
 };
 
-export const getUser = () => {
-	AsyncStorage.getItem("userToken", (error, result) => {
-		console.log(error);
-		console.log(result);
+export const getUser = async () => {
+	const uid = await AsyncStorage.getItem("userToken", (error, result) => {
 		if (result) {
-			console.log(result);
+			// console.log(result);
 			return result;
 		} else {
 			console.log("Error in AsyncStorage getUser");
 			console.log(error);
 		}
 	});
+	return uid;
 };
 
 export const storeCredential = async uid => {
