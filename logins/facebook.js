@@ -8,6 +8,8 @@ import {
 } from "../constants/API_KEY";
 import { Alert } from "react-native";
 
+import { sendUserDataToFireStore } from "../api_requests/firebaseSendAndGet";
+
 import * as firebase from "firebase";
 
 // Required for side-effects
@@ -23,6 +25,7 @@ export async function facebookLogin() {
 			permissions: ["public_profile"]
 		});
 		if (type === "success") {
+			console.log("Got user from Facebook");
 			// Get the user's name using Facebook's Graph API
 			const response = await fetch(
 				`https://graph.facebook.com/me?access_token=${token}`
@@ -39,9 +42,14 @@ export async function facebookLogin() {
 				.auth()
 				.signInWithCredential(credential)
 				.then(credential => {
+					console.log("Signing in with credential");
 					// set localStorage with credential
 					storeCredential(credential.user.uid);
-					// return with the uid
+					return credential;
+				})
+				.then(credential => {
+					console.log("Sending user data to firestore");
+					sendUserDataToFireStore(credential.user);
 					return credential.user.uid;
 				})
 				.catch(error => {

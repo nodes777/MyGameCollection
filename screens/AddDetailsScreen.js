@@ -58,9 +58,8 @@ export default class AddDetailsScreen extends React.Component {
     const gameData = { detailsOnCopy, gameDataFromBarcodeAndGiantBomb };
     // console.log(gameData);
     sendGameToFireStore(gameData).then(result => {
-      console.log(result);
+      console.log(`${result} sending to firestore: `);
       if (result === "success") {
-        console.log(this.props.navigation.navigate);
         this.props.navigation.navigate("Home");
       } else {
         console.log("sending data to firestore was not successful");

@@ -55,6 +55,7 @@ export const getUser = async () => {
 
 export const storeCredential = async uid => {
 	try {
+		console.log("Storing credential");
 		await AsyncStorage.setItem("userToken", uid, () => {
 			console.log("Successful setItem in AsyncStorage");
 		});
