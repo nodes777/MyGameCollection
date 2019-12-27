@@ -49,8 +49,11 @@ export async function facebookLogin() {
 				})
 				.then(credential => {
 					console.log("Sending user data to firestore");
-					sendUserDataToFireStore(credential.user);
-					return credential.user.uid;
+					return sendUserDataToFireStore(credential.user);
+					// return credential.user.uid;
+				})
+				.then(status => {
+					return status;
 				})
 				.catch(error => {
 					console.log("Error in Firebase.signInWithCredential: ");
