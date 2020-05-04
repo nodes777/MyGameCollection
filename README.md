@@ -6,7 +6,9 @@ A [React Native](https://reactnative.dev/) app for creating a video game databas
 ## Quickstart
 
 `git clone https://github.com/nodes777/phaser3-react-template`
+
 `npm install`
+
 `npm start`
 
 ## Requirements
