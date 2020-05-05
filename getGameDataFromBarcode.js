@@ -6,7 +6,7 @@ import { getBarcodeableData } from "./api_requests/getBarcodeableData";
 import { getGiantBombSearchData } from "./api_requests/getGiantBombSearchData";
 import { getGiantBombDetailsData } from "./api_requests/getGiantBombDetailsData";
 
-export const getGameDataFromBarcode = async barcodeValue => {
+export const getGameDataFromBarcode = async (barcodeValue) => {
 	console.log("Requesting game data from barcode...");
 	const barcodeData = await getBarcodeableData(barcodeValue);
 
@@ -25,9 +25,8 @@ export const getGameDataFromBarcode = async barcodeValue => {
 	// };
 
 	// after we have barcodeable's game name we search Giant Bomb with it
-	const giantBombSearchData = await getGiantBombSearchData(
-		"Splash Down: Rides Gone Wild"
-	); // barcodeData.title
+	const giantBombSearchData = await getGiantBombSearchData(barcodeData.title);
+
 	// that search api will return a game guid, from which we can get the game details
 
 	const giantBombDetailsData = await getGiantBombDetailsData(
@@ -39,7 +38,7 @@ export const getGameDataFromBarcode = async barcodeValue => {
 		//...testData,
 		...barcodeData,
 		...giantBombSearchData,
-		...giantBombDetailsData
+		...giantBombDetailsData,
 	};
 
 	return allData;
