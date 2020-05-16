@@ -9,6 +9,7 @@ import { getGiantBombDetailsData } from "./api_requests/getGiantBombDetailsData"
 export const getGameDataFromBarcode = async (barcodeValue) => {
 	console.log("Requesting game data from barcode...");
 	const barcodeData = await getBarcodeableData(barcodeValue);
+	console.log(barcodeData.title);
 
 	// const testData = {
 	// 	amazon_url:

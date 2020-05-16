@@ -3,7 +3,7 @@ import {
 	FIRE_STORE_API_KEY,
 	FIRE_STORE_PROJECT_ID,
 	FIRE_STORE_AUTH_DOMAIN,
-	FACEBOOK_APP_ID
+	FACEBOOK_APP_ID,
 } from "../constants/API_KEY";
 import { Alert, AsyncStorage } from "react-native";
 
@@ -14,10 +14,10 @@ import "firebase/firestore";
 firebase.initializeApp({
 	apiKey: FIRE_STORE_API_KEY,
 	authDomain: FIRE_STORE_AUTH_DOMAIN,
-	projectId: FIRE_STORE_PROJECT_ID
+	projectId: FIRE_STORE_PROJECT_ID,
 });
 
-firebase.auth().onAuthStateChanged(user => {
+firebase.auth().onAuthStateChanged((user) => {
 	if (user != null) {
 		console.log("We are authenticated now!");
 		console.log(user.uid);
@@ -28,20 +28,22 @@ export const firebaseLogout = async () => {
 	await firebase
 		.auth()
 		.signOut()
-		.then(function() {
+		.then(function () {
 			AsyncStorage.removeItem("userToken", () => {
 				console.log("removed userToken from AsyncStorage");
 			});
 			// the component calling this sends user to signin screen without checking for successful token removal here
 			console.log("User is signed out");
 		})
-		.catch(function(error) {
+		.catch(function (error) {
 			console.log(error);
 		});
 };
 
 export const getUser = async () => {
 	const uid = await AsyncStorage.getItem("userToken", (error, result) => {
+		console.log(result);
+
 		if (result) {
 			// console.log(result);
 			return result;
@@ -53,7 +55,7 @@ export const getUser = async () => {
 	return uid;
 };
 
-export const storeCredential = async uid => {
+export const storeCredential = async (uid) => {
 	try {
 		console.log("Storing credential");
 		await AsyncStorage.setItem("userToken", uid, () => {

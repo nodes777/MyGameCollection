@@ -27,7 +27,7 @@ export default class ConfirmGameScreen extends React.Component {
 		this.props.navigation.navigate("AddDetailsScreen", gameData);
 	};
 	onNoPress() {
-		Alert("No has been pressed!");
+		Alert.alert("No has been pressed!");
 	}
 
 	render() {

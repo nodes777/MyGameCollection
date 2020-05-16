@@ -4,7 +4,7 @@ import {
 	FIRE_STORE_API_KEY,
 	FIRE_STORE_PROJECT_ID,
 	FIRE_STORE_AUTH_DOMAIN,
-	FACEBOOK_APP_ID
+	FACEBOOK_APP_ID,
 } from "../constants/API_KEY";
 import { Alert } from "react-native";
 
@@ -20,9 +20,9 @@ export async function facebookLogin() {
 		const {
 			type,
 			token,
-			permissions
+			permissions,
 		} = await Facebook.logInWithReadPermissionsAsync(FACEBOOK_APP_ID, {
-			permissions: ["public_profile"]
+			permissions: ["public_profile"],
 		});
 		if (type === "success") {
 			console.log("Got user from Facebook");
@@ -33,29 +33,28 @@ export async function facebookLogin() {
 			Alert.alert("Logged in!", `Hi ${(await response.json()).name}!`);
 
 			// Build Firebase credential with the Facebook access token.
-			const credential = firebase.auth.FacebookAuthProvider.credential(
-				token
-			);
+			const credential = firebase.auth.FacebookAuthProvider.credential(token);
+			console.log(credential);
 
 			// Sign in with credential from the Facebook user.
 			return await firebase
 				.auth()
 				.signInWithCredential(credential)
-				.then(credential => {
+				.then((credential) => {
 					console.log("Signing in with credential");
 					// set localStorage with credential
 					storeCredential(credential.user.uid);
 					return credential;
 				})
-				.then(credential => {
+				.then((credential) => {
 					console.log("Sending user data to firestore");
 					return sendUserDataToFireStore(credential.user);
 					// return credential.user.uid;
 				})
-				.then(status => {
+				.then((status) => {
 					return status;
 				})
-				.catch(error => {
+				.catch((error) => {
 					console.log("Error in Firebase.signInWithCredential: ");
 					console.log(error);
 				});

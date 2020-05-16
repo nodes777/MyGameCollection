@@ -1,15 +1,15 @@
 import axios from "axios";
 import { handleAPIErrors } from "../utils/handleAPIErrors";
 import { CONSOLE_NAMES } from "../constants/CONSOLE_NAMES";
-export const getBarcodeableData = async barcodeValue => {
+export const getBarcodeableData = async (barcodeValue) => {
 	const barcodeData = await axios({
-		url: `https://api.barcodable.com/api/v1/upc/752919460320`, //${barcodeValue}
+		url: `https://api.barcodable.com/api/v1/upc/${barcodeValue}`, //752919460320 for splashdown
 		method: "GET",
 		headers: {
-			Accept: "application/json"
-		}
+			Accept: "application/json",
+		},
 	})
-		.then(response => {
+		.then((response) => {
 			console.log("Getting data from barcodable...");
 			if (response.data.item.matched_items.length > 1) {
 				console.error("Multiple items match the bar code!");
@@ -24,7 +24,7 @@ export const getBarcodeableData = async barcodeValue => {
 				new_price: response.data.item.matched_items[0].new_price,
 				used_price: response.data.item.matched_items[0].used_price,
 				amazon_url: response.data.item.matched_items[0].url,
-				description: response.data.item.matched_items[0].description
+				description: response.data.item.matched_items[0].description,
 				//images: response.data.item.matched_items[0].images
 			};
 
@@ -43,20 +43,18 @@ export const getBarcodeableData = async barcodeValue => {
 			const categories =
 				response.data.item.matched_items[0].category_hierarchies;
 
-			const platform = categories.flat().filter(function(category) {
+			const platform = categories.flat().filter(function (category) {
 				return CONSOLE_NAMES.indexOf(category) > -1;
 			});
 
 			if (platform.length > 1) {
-				console.error(
-					"More than one platform returned from the barcorde"
-				);
+				console.error("More than one platform returned from the barcorde");
 			}
 			data.platform = platform;
 
 			return data;
 		})
-		.catch(err => {
+		.catch((err) => {
 			handleAPIErrors(err);
 		});
 	return barcodeData;
