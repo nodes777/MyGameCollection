@@ -1,5 +1,5 @@
 import * as firebase from "firebase";
-import { getUser } from "../logins/firebase";
+import { getUserToken } from "../logins/firebase";
 import {
 	FIRE_STORE_API_KEY,
 	FIRE_STORE_AUTH_DOMAIN,
@@ -7,14 +7,17 @@ import {
 } from "../constants/API_KEY";
 
 export const sendGameToFireStore = async (gameData) => {
-	firebase.initializeApp({
-		apiKey: FIRE_STORE_API_KEY,
-		authDomain: FIRE_STORE_AUTH_DOMAIN,
-		projectId: FIRE_STORE_PROJECT_ID,
-	});
+	if (!firebase.apps.length) {
+		firebase.initializeApp({
+			apiKey: FIRE_STORE_API_KEY,
+			authDomain: FIRE_STORE_AUTH_DOMAIN,
+			projectId: FIRE_STORE_PROJECT_ID,
+		});
+	}
+
 	var db = firebase.firestore();
 
-	const uid = await getUser();
+	const uid = await getUserToken();
 	console.log("uid: " + uid);
 
 	// must alternate collection then doc
@@ -55,7 +58,7 @@ export const sendUserDataToFireStore = async (userData) => {
 		.then(function (doc) {
 			if (doc.exists) {
 				console.log("User exists:", doc.data());
-				return "user exists";
+				return doc.data();
 			} else {
 				// doc.data() will be undefined in this case
 				console.log("No such user, setting user data...");
@@ -86,6 +89,23 @@ const setUserData = async (userData) => {
 		.then(() => {
 			console.log(`Added user data`);
 			return "user added";
+		})
+		.catch(function (error) {
+			console.error("Error adding document: ", error);
+			return "failure";
+		});
+	return result;
+};
+
+export const getUserData = async (uid) => {
+	var db = firebase.firestore();
+	const result = await db
+		.collection("users")
+		.doc(uid)
+		.get()
+		.then((userDoc) => {
+			console.log(`got user data`);
+			return userDoc.data();
 		})
 		.catch(function (error) {
 			console.error("Error adding document: ", error);

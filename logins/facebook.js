@@ -16,6 +16,8 @@ import * as firebase from "firebase";
 import "firebase/firestore";
 
 export async function facebookLogin() {
+	await Facebook.initializeAsync(FACEBOOK_APP_ID);
+
 	try {
 		const {
 			type,
@@ -34,7 +36,6 @@ export async function facebookLogin() {
 
 			// Build Firebase credential with the Facebook access token.
 			const credential = firebase.auth.FacebookAuthProvider.credential(token);
-			console.log(credential);
 
 			// Sign in with credential from the Facebook user.
 			return await firebase
@@ -43,6 +44,7 @@ export async function facebookLogin() {
 				.then((credential) => {
 					console.log("Signing in with credential");
 					// set localStorage with credential
+					// move this outside of firebase.js
 					storeCredential(credential.user.uid);
 					return credential;
 				})
@@ -51,8 +53,10 @@ export async function facebookLogin() {
 					return sendUserDataToFireStore(credential.user);
 					// return credential.user.uid;
 				})
-				.then((status) => {
-					return status;
+				.then((userDoc) => {
+					console.log("userDoc in facebook.js");
+					console.log(userDoc);
+					return userDoc;
 				})
 				.catch((error) => {
 					console.log("Error in Firebase.signInWithCredential: ");

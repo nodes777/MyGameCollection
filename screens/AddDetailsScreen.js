@@ -12,7 +12,7 @@ import {
 	KeyboardAvoidingView,
 	Platform,
 } from "react-native";
-import { Header } from "react-navigation";
+import { Header } from "@react-navigation/native";
 import * as Permissions from "expo-permissions";
 import { Camera } from "expo-camera";
 

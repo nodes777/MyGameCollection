@@ -1,9 +1,7 @@
 import React from "react";
 import { Platform } from "react-native";
-import {
-  createStackNavigator,
-  createBottomTabNavigator
-} from "react-navigation";
+import { createStackNavigator } from "@react-navigation/stack";
+import { createBottomTabNavigator } from "@react-navigation/native";
 
 import TabBarIcon from "../components/TabBarIcon";
 import HomeScreen from "../screens/HomeScreen";
@@ -16,80 +14,80 @@ import AddDetailsScreen from "../screens/AddDetailsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 
 const config = Platform.select({
-  web: { headerMode: "screen" },
-  default: {}
+	web: { headerMode: "screen" },
+	default: {},
 });
 
 /* Home */
 const HomeStack = createStackNavigator(
-  {
-    Home: HomeScreen
-  },
-  config
+	{
+		Home: HomeScreen,
+	},
+	config
 );
 
 HomeStack.navigationOptions = {
-  tabBarLabel: "Home",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={
-        Platform.OS === "ios"
-          ? `ios-information-circle${focused ? "" : "-outline"}`
-          : "md-information-circle"
-      }
-    />
-  )
+	tabBarLabel: "Home",
+	tabBarIcon: ({ focused }) => (
+		<TabBarIcon
+			focused={focused}
+			name={
+				Platform.OS === "ios"
+					? `ios-information-circle${focused ? "" : "-outline"}`
+					: "md-information-circle"
+			}
+		/>
+	),
 };
 
 HomeStack.path = "";
 
 /* AddGame  */
 const AddGameStack = createStackNavigator(
-  {
-    AddGameScreen: AddGameScreen,
-    ConfirmGameScreen: ConfirmGameScreen,
-    AddDetailsScreen: AddDetailsScreen
-  },
-  config
+	{
+		AddGameScreen: AddGameScreen,
+		ConfirmGameScreen: ConfirmGameScreen,
+		AddDetailsScreen: AddDetailsScreen,
+	},
+	config
 );
 
 AddGameStack.navigationOptions = {
-  tabBarLabel: "Add Game",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
-    />
-  )
+	tabBarLabel: "Add Game",
+	tabBarIcon: ({ focused }) => (
+		<TabBarIcon
+			focused={focused}
+			name={Platform.OS === "ios" ? "ios-link" : "md-link"}
+		/>
+	),
 };
 
 AddGameStack.path = "";
 
 /* Settings  */
 const SettingsStack = createStackNavigator(
-  {
-    Settings: SettingsScreen
-  },
-  config
+	{
+		Settings: SettingsScreen,
+	},
+	config
 );
 
 SettingsStack.navigationOptions = {
-  tabBarLabel: "Settings",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-options" : "md-options"}
-    />
-  )
+	tabBarLabel: "Settings",
+	tabBarIcon: ({ focused }) => (
+		<TabBarIcon
+			focused={focused}
+			name={Platform.OS === "ios" ? "ios-options" : "md-options"}
+		/>
+	),
 };
 
 SettingsStack.path = "";
 
 const tabNavigator = createBottomTabNavigator({
-  HomeStack,
-  AddGameStack,
-  SettingsStack
+	HomeStack,
+	AddGameStack,
+	SettingsStack,
 });
 
 tabNavigator.path = "";

@@ -40,7 +40,7 @@ export const firebaseLogout = async () => {
 		});
 };
 
-export const getUser = async () => {
+export const getUserToken = async () => {
 	const uid = await AsyncStorage.getItem("userToken", (error, result) => {
 		console.log(result);
 
@@ -48,7 +48,7 @@ export const getUser = async () => {
 			// console.log(result);
 			return result;
 		} else {
-			console.log("Error in AsyncStorage getUser");
+			console.log("Error in AsyncStorage getUserToken");
 			console.log(error);
 		}
 	});
